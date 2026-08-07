@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: CS3120 Theory of Computation
+title: CS6160 Complexity
 tagline: 
 description: 
 author: Wei-Kai Lin
-baseurl: '/cs3120-toc' # the subpath of your site, e.g. /blog
+baseurl: '/cs6160-complexity' # the subpath of your site, e.g. /blog
 url: 'https://weikailin.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 # logo: 'https://brand.virginia.edu/sites/uva_brand/themes/custom/uvab/images/uva_horiz_logo.png'
