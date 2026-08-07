@@ -10,7 +10,27 @@ Syllabus
 
 ## Overview
 
-**Course Description:** The goal of this course is to understand the
+**Course Description:**
+
+The goal of this course is to understand the fundamental computation models in computer science.
+That is, we formalize computation into theoretical models, 
+and for each model, we identify essential resources.
+With that, we aim to reveal the feasibilities and limitations of models and resources, for all problems.
+In this course, we frequently ask and sometimes answer two questions:
+1. *Can we replace one resource with a different resouce, potentially in a different model?*
+2. *What are the implications of the feasibilities and limitations?*
+
+We discuss these questions by defining computation models and their resources,
+such as the time and space of Turing machines and the sizes of circuits,
+and then we categorize problems into complexity classes using the models.
+A main goal is to for us to understand how theoretical computer scientists
+reason about these questions, 
+and connecting that theory to practical questions about computing.
+Another main goal is to learn the essential tools and techniques that is 
+applied to solve many challenges.
+
+<!-- 
+The goal of this course is to understand the
 fundamental limits on what can be efficiently computed in our
 universe and other possible (or imaginary) universes. These limits
 reveal deep and mysterious properties about information,
@@ -30,9 +50,16 @@ connecting that theory to practical questions about computing.  We
 will also look at some applications in cryptography that take
 advantage of problems being hard to solve, and what can be done when a
 problem cannot be solved or is too expensive to solve.
+ -->
 
-**Course Objectives:** Students who complete the course will:
+**Course Objectives:** Students who complete the course will understand the following:
 
+- Formal models of computation, such as (nondeterministic) Turing machine, alternation, circuits, and formulas.
+- Resouces of the models, such as time, space, randomness, communication, and circuit size, and understand the relations between resources.
+- Interactive proofs and probabilistic-checkable proofs.
+- Derandomization and pseudorandomness.
+- Some lower bounds and natural proofs.
+<!-- 
 - Improve their [mathematical thinking skill and
   habits](https://medium.com/@jeremyjkun/habits-of-highly-mathematical-people-b719df12d15e),
   including thinking precisely about definitions, stating assumptions
@@ -42,188 +69,89 @@ problem cannot be solved or is too expensive to solve.
 - Understand both intuitively and formally what makes some problems either impossible or too expensive to solve with a computer, and what can be done in practice when an unsolvable or intractable problem is encountered.
 - Reason formally about the cost of computation, and be able to prove useful bounds on the costs of solving problems, including showing that certain problems cannot be solved efficiently.
 - Learn about some interesting aspects of theoretical computer science, and why understanding them matters even if you are only interested in building practical computing systems.
+ -->
 
-<a name="meetings"></a>
-**Class Meetings:** The full class meetings of the course are
-  scheduled for Tuesdays and Thursdays, 9:30--10:45pm in Olsson Hall 120. 
 
-**Another section of the same course:**
-Prof. Pettit also teaches this course in this Spring 2026. The two sections use **different textbooks** and proceed with slightly **different topics** although the overall goals are similar. The workload of this section shall be similar to the other section, but it is up to the staff's discretion.
+<!-- <a name="meetings"></a> -->
+**Class Meetings:** The meetings of the course are
+  scheduled for Mondays and Wednesdays, 2--3:15pm. 
 
 ## Preparation
 
-**Official Prerequisites:** To enroll in CS 3120, students must have
-  completed CS 3100 (DSA2) or CS 4102 (Algorithms) with a grade of C-
-  or better.
+**Prerequisites:** To enroll in CS 6160, students must have
+  completed CS 3120 (DMT2 at UVA CS) with a grade of C- or better (or an equivalent course and grade).
 
-**Expected Background:** We expect students entering CS 3120 to be
-  comfortable using proof techniques from DMT1 including
-  proof-by-contradiction, using quantifiers, and induction. From DSA2,
-  we expect students to have good understanding of the most common
-  asymptotic operators (including ``big-$$O$$'' and $$\Theta$$)
-  and how to use them to talk about algorithm costs, reductions, and
-  understanding recursive definitions and problem solving.
+**Expected Background:** 
+We expect students entering CS 6160 to be
+comfortable reading and writing definitions, theorems, and proofs.
+From the prerequisite CS 3120, we expect students to understand the Turing machine model
+and basic complexity classes, such as polynomial time (P), exponential time (EXP), and NP.
+We will also use basic probability, basic linear algebra, and basic algebra.
 
-**Programming:** We also expect students to be able to read and write short
-programs. We will use the Python programming language for some
-assignments in the class. It is not necessary to have previous
-experience with Python, but you should have enough programming
-experience to be able to pick up what you need to read and write short
-Python programs on your own. If you do not satisfy the prerequisites,
-you should meet with one of the instructors to discuss whether you
-should take the class. 
+Students will be asked to turn in assignments that is typeset in LaTeX. 
+
 
 ## Course Staff
 
 **Instructor:** The course is taught by [Wei-Kai Lin](https://weikailin.github.io/) (wklin-course@virginia.edu).
   Feel free to contact Wei-Kai with any
   questions about the course, computer science, or anything else you
-  think I can help with (but please read the section below on
+  think I can help with.
+<!-- 
+  (but please read the section below on
   [communications](#communication) to determine if it would be better to post a message
   in [*Piazza*](https://piazza.com/virginia/spring2026/cs3120) before emailing us).
+ -->
 
-**Office Hours:** The full office hours schedule is available on the [course calendar](https://calendar.google.com/calendar/embed?src=292e8ddb35fbfb071102435db2822547ef891ab66dfd7eb00e075e0ea54a45bd%40group.calendar.google.com).
+**Office Hours:**
+<!-- The full office hours schedule is available on the [course calendar](https://calendar.google.com/calendar/embed?src=292e8ddb35fbfb071102435db2822547ef891ab66dfd7eb00e075e0ea54a45bd%40group.calendar.google.com). -->
 
 ![Wei-Kai](assets/images/20231027-wei-kai-lin-square.jpg){: style="display: block; margin: 0 auto; border-radius: 50%; max-width: 10em;"}
 Office hour: Mondays, 11am - 12pm, Rice Hall 505.
 
-**Teaching Assisants:** 
-
-{: style="text-align: center;"}
-Chase Fickes
-![Chase](assets/images/chase.png){: style="display: block; margin: 0 auto; border-radius: 50%; max-width: 10em;"}
-
-{: style="text-align: center;"}
-Shiyu Li
-![Shiyu](assets/images/shiyu.png){: style="display: block; margin: 0 auto; border-radius: 50%; max-width: 10em;"}
-
-{: style="text-align: center;"}
-Ethan Klose
-![Ethan](assets/images/ethan.jpg){: style="display: block; margin: 0 auto; border-radius: 50%; max-width: 10em;"}
-
-{: style="text-align: center;"}
-Eric Zeng
-![Eric](assets/images/eric.jpg){: style="display: block; margin: 0 auto; border-radius: 50%; max-width: 10em;"}
-
-<!-- 
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/dave.jpg"><br>
-<a href="https://www.cs.virginia.edu/evans">David Evans</a></br></div>
-
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/mohammad.png"><br>
-<a href="https://www.cs.virginia.edu/~mohammad/">Mohammad Mahmoody</a><br>
-  </div>
-  </div>
-</center>
-
-**Teaching Assisants:** 
-
-   <center>
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/leah.jpeg"><br>
-Leah Baetcke</br></div>
-
-<div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/adam.jpg"><br>
-Adam Bornemann</br></div>
-
-
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/johnson.jpeg"><br>
-Catherine Johnson</br></div>
-
-</div>
-
-
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/ratik.jpeg"><br>
-Ratik Mathur</br></div>
-
-<div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/mei.jpeg"><br>
-<a href="https://zihanmei.uvacreate.virginia.edu/index-creative-1.html">
-Zihan Mei
-</a></br></div>
-
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/morrissey.jpeg"><br>
-Gillian Morrissey</br></div>
-
-</div>
-
-   <div class="row" style="display:flex; width: 100%; flex-wrap: wrap; justify-content: center; padding: 0.5rem;">
-
-   <div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/sosnkowski.png"><br>
-Alexander Sosnkowski</br></div>
-
-<div class="column small-9 medium-4" style="text-align: center; padding: 0.5rem;"><img class="img-circle" width=85% src="/images/Claire_Yoon.png"><br>
-Claire Yoon</br>
-</div>
-</center>
- -->
-
 
 ## Learning Materials
     
-**Textbook:** Boaz Barak, [_Introduction to Theoretical Computer Science_](https://introtcs.org/public/index.html).
+**Textbook:** 
+Sanjeev Arora and Boaz Barak, [_Computational Complexity: A Modern Approach_](https://www.cambridge.org/core/books/computational-complexity/3453CAFDEB0B4820B186FE69A64E1086).
+[Draft of the book](https://theory.cs.princeton.edu/complexity/book.pdf) is available, but some chapter numbers differ.
 
-This is an open textbook that is freely available from
-[https://introtcs.org](https://introtcs.org) under a Creative Commons
-license. In addition to costing
-[$78](https://www.amazon.com/Introduction-Theory-Computation-Michael-Sipser/dp/113318779XIntroduction-Theory-Computation-Michael-Sipser/dp/113318779X?language=en_US&currency=USD)
-less than the traditional textbook for this class, this book takes a
-modern and innovative approach to introducing theory of computation
-which has several advantages (and a few disadvantages) of the
-traditional approach (which we will discuss some in class, and be
-happy to elaborate on during office hours). We plan to follow the
-organization and material in the textbook fairly closely, but will
-also cover some topics that are not included, and present some of the
-material in ways that are different from how it is presented in the
-book.
+**Additional materials:**
+The book [Introduction to Theoretical Computer Science](https://introtcs.org/public/) by Boaz Barak is a good review for the prerequisites.
+For the course materials, complexity is taught in many institutes, and some of them maintained high-quality lecture notes and scribes.
+Here are some of them.
 
-In addition to the course textbook, a few readings will be assigned
-from other (freely available) sources.
+- Computational Complexity, Harvard, 2024, by Madhu Sudan. [Schedule](https://docs.google.com/spreadsheets/d/16u8gHKRLElY5_UpZSzBTOInkCn8_Yyq2ibgkzQMlc_Q/edit?gid=0#gid=0). There are lecture notes, video recordings, scribes, and HW problems. We plan to cover many topic in this course.
+- Computational Complexity, UW, 2024, by Thomas Rothvoss. [Lecture notes](https://sites.math.washington.edu/~rothvoss/archive/lecturenotes/complexity-CSE531-Winter2024.pdf).
+- Computational Complexity, Princeton, 2009, by Boaz Barak. [Website](https://www.cs.princeton.edu/courses/archive/spring09/cos522/). The website gives lecture notes, HW problems, and links to many materials.
 
-<!-- 
-**Video Lectures:** Materials will include links to relevant (and
-  maybe some irrelevant) videos that cover the material students are
-  expected to learn in the course. These videos are mostly edited
-  recordings of lectures from previous versions of this course, but
-  also will include some additional videos and other materials.
- -->
+For derandomization, pseudorandomness, expanders, and extractors, the book [Pseudorandomness](https://people.seas.harvard.edu/~salil/pseudorandomness/) by Salil Vadhan is the standard reference.
+
 
 ## Communication
 
-We will primarily use the course website for posting course materials,
-and use the course Piazza for interactive communications.
+We will primarily use the course website for posting course materials
+and use UVA Canvas for interactive communications.
 
 **Course Website:** We will post all course materials at
-  [https://weikailin.github.io/cs3120-toc](https://weikailin.github.io/cs3120-toc).
+  [https://weikailin.github.io/cs6160-complexity](https://weikailin.github.io/cs6160-complexity).
 
-**Course Calendar:** We will keep course deadlines, office hours, and
-  other events on a [public google
-  calendar](https://calendar.google.com/calendar/embed?src=292e8ddb35fbfb071102435db2822547ef891ab66dfd7eb00e075e0ea54a45bd%40group.calendar.google.com). Students
-  are expected to subscribe to this calendar and be aware of deadlines that are posted there.
-
-**Piazza:** We will use the [course Piazza](https://piazza.com/virginia/spring2026/cs3120) for most other
-  course communications. We expect students to receive messages we send to
-  the `Announcement` category as well as any direct messages we send to you
-  on Ed. 
-  
-If you have questions about assignments that will
-be relevant to other students, please ask them in the corresponding folders, such as `hw1`.
+In general, if you have any questions that will be relevant to other students,
+please ask them on Canvas publicly.
 This will get the fastest response, since all of the course
-staff and students will see your question there and be able to respond
-to it. Asking questions anonymously is allowed.
+staff and students will see your question there and be able to respond to it.
 
-Although Piazza enables "realtime" communication, you should not
-expect instant answers to questions there, but should expect a
-response within 24 hours (even on weekdays).
+**Email:**
+You should use the course Canvas for questions about the course
+content that are relevant to all students. If you have personal
+questions or things to discuss with Wei-Kai, please do this
+by emailing ([wklin-course@virginia.edu](mailto:wklin-course@virginia.edu)). 
 
-**Email:** Managing email for a large class like this is difficult,
-  and you should use the course Piazza for questions about the course
-  content that are relevant to all students. If you have personal
-  questions or things to discuss with the course staff, please do this
-  by emailing the instructor ([wklin-course@virginia.edu](mailto:wklin-course@virginia.edu)). 
+
+
+<!-- 
+---------------------------------------------------------------------
+TO REVISE BELOW:
 
 ## Assignments and Exams
 
@@ -247,13 +175,6 @@ In the same quiz, you will be asked to reflect on the material of the past week.
 We require you to submit a total of 9 quizzes during the semester. 
 There will be more than 9 quizzes, you are encouraged to take all of them, but only your 9 best quizzes will be counted.
 Because the timing of pre-reading and reclection are essential, we disallow late submission (unless pre-approved by the instructor).
-
-<!-- 
-**Quizzes.** We will have regular quizzes due most Wednesday at 9:59pm
-  (and posted the day before). These quizzes are designed to be quick
-  ways to check your understanding, and will be (mostly) automatically
-  graded. Quizzes will be done on your own, without using any resources.
- -->
 
 ### Exams
 We will have the following exams in the semester.
@@ -286,7 +207,11 @@ bringing these to our attention even if the deadline has passed.
 
 If you find that you will be unable to make one of the scheduled
 exams, contact the course instructors immediately.
+   -->
 
+<!-- 
+---------------------------------------------------------------------
+TO REVISE BELOW:
 ## Grading
 
 We encourage students to spend your energy focusing on what you are
@@ -312,29 +237,6 @@ receive in the course:
 |Quizzes                    | 5%      |
 |Midterm                    | 45%     |
 |Final Exam                 | 23%     |
-
-<!-- 
-<center>
-<table class="grades" style="width:85%;">
-<thead>
-<tr>
-<th width="60%">Item</th>
-<th width="40%">Standard Weighting</th>
-<tbody>
-<tr><td>Problem Sets (10 expected)</td><td style="text-align:center;"><b>42%</b> (but with later assignments counting more)</td></tr>
-
-<tr><td>Quizzes (9 expected, with one make-up)</td>
-<td style="text-align:center;"><b>10%</b></td></tr>
-
-<tr><td>Midterm Exam</td>
-<td style="text-align:center;"><b>18%</b></td></br>
-
-<tr><td>Final Exam</td>
-<td style="text-align:center;"><b>30%</b></td>
-</tbody>
-</table>
-</center>
- -->
 
 With the exception of cases of academic dishonesty or inappropriate
 behavior, we guarantee that you will a grade that is not below the
@@ -382,9 +284,6 @@ The course will be better for everyone if everyone can assume everyone
 else is trustworthy. The course staff starts with the assumption that
 all students at the university deserve to be trusted. 
 
-To ensure that expectations are clear to everyone, all students are
-required to read, understand, and sign the [course pledge](pledge.md).
-
 **Collaboration Policy:** We believe it is important for students to
 learn by thinking about problems on their own, so it is expected that
 each student studies the provided materials and attempts to solve the
@@ -407,6 +306,9 @@ staff. The penalty for policy violations will be considered on a
 case-by-case basis, with a penalty commensurate the severity of the
 offense.
 
+---------------------------------------------------------------------
+ -->
+ 
 ## Additional Information
 
 **Special Circumstances:** The University of Virginia strives to provide accessibility to all students. If you require an accommodation to fully access this course, please contact the Student Disability Access Center (SDAC) at (434) 243-5180 or `sdac@virginia.edu`. If you are unsure if you require an accommodation, or to learn more about their services, you may contact the SDAC at the number above or by visiting their website [https://studenthealth.virginia.edu/sdac](https://studenthealth.virginia.edu/sdac)
@@ -468,14 +370,6 @@ an appointment. If you prefer to speak anonymously and confidentially
 over the phone, Madison House provides a HELP Line at any hour of any
 day: 434-295-8255.
 
-
-## Additional Course Materials
-
-Theory of computation is widely taught in many universities. Hence, you can find many materials, including practice problems and solutions. Here are some links might be useful: 
-- [UVA CS 3120, Spring 2023, by Prof. Evans and Prof. Mahmoody](https://uvatoc.github.io/): This is the "predecessor" of the current course. Actually, many policies and materials are inherited.
-- [UVA CS 3120 by Prof. Floryan](https://markfloryan.github.io/dmt2/readme.html): This is a different section of the same course.
-- [Harvard CS 121 by Prof. Barak](https://cs121.boazbarak.org/): This is the course at Harvard, which is taught by the author of our textbook.
-- [UVA CS 3120 by Wei-Kai, Spring 2025](Spring-2025/index.md): This is the previous offering of the same course. You can find the [Announcements](Spring-2025/index.md), [Outline](Spring-2025/outline.md), and others, provided in the raw markdown format.
 
 <!-- 
 {: .caution }
