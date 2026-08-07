@@ -2,7 +2,7 @@
 layout: page
 title: Pledge
 nav_order: 0
-nav_exclude: false
+nav_exclude: true
 ---
 
 
