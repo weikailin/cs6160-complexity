@@ -10,6 +10,7 @@ Tentative Outline
 
 The following outline is planned before the semester starts. 
 As the course goes, we will post the exact topics.
+See also the [longer version with references](#longer-outline).
 
 1. Introduction. Computation models. DTIME and P.
    
@@ -75,7 +76,7 @@ As the course goes, we will post the exact topics.
 5. Toda’s Theorem
 
 
-## Longer Outline
+### Longer Outline
 
 The following longer outline provides the materials of each lecture. 
 [AB, xxx] denotes the chapter xxx of the Arora-Barak textbook, 
