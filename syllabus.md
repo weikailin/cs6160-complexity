@@ -121,7 +121,7 @@ The book [Introduction to Theoretical Computer Science](https://introtcs.org/pub
 For the course materials, complexity is taught in many institutes, and some of them maintained high-quality lecture notes and scribes.
 Here are some of them.
 
-- Computational Complexity, Harvard, 2024, by Madhu Sudan. [Schedule](https://docs.google.com/spreadsheets/d/16u8gHKRLElY5_UpZSzBTOInkCn8_Yyq2ibgkzQMlc_Q/edit?gid=0#gid=0). There are lecture notes, video recordings, scribes, and HW problems. We plan to cover many topic in this course.
+- Computational Complexity, Harvard, 2024, by Madhu Sudan. [A copy of timetable](assets/sudan2024-complexity_course/Sheet1.html), and [All Lecture Notes](https://drive.google.com/file/d/19OoErNeUziot3eVn7v7xp-R5mEsFTjrh/view?usp=drive_link). There are lecture notes, scribes, and HW problems. We plan to cover many topic in this course.
 - Computational Complexity, UW, 2024, by Thomas Rothvoss. [Lecture notes](https://sites.math.washington.edu/~rothvoss/archive/lecturenotes/complexity-CSE531-Winter2024.pdf).
 - Computational Complexity, Princeton, 2009, by Boaz Barak. [Website](https://www.cs.princeton.edu/courses/archive/spring09/cos522/). The website gives lecture notes, HW problems, and links to many materials.
 
@@ -148,70 +148,47 @@ questions or things to discuss with Wei-Kai, please do this
 by emailing ([wklin-course@virginia.edu](mailto:wklin-course@virginia.edu)). 
 
 
+## Coursework
 
-<!-- 
----------------------------------------------------------------------
-TO REVISE BELOW:
+### Presenting and scribing
 
-## Assignments and Exams
+This course aims to be interactive and requires significant class participation, particularly, reading, presenting, and discussing.
+For each meeting, a *student presenter* starts the lecture with a brief high-level overview, 
+or a recap in some cases; 
+the presenter shall also actively ask or answer during the meeting.
+After each meeting, a *scriber* shall polish and then publish his/her scribed notes.
+See the details below.
 
-### Homework Assignments
-  Most learning in this course is done by working to
-  solve problems on your own and in collaboration with others. We will
-  have a problem set due most weeks in the course (typically on
-  Fridays at 10:00pm).  See the course calendar for specific due
-  dates. Each problem set will include specific directions for how to
-  submit your solutions, and we expect students to read and follow
-  these carefully. Unless otherwise stated in the problem sets, you are allowed to discuss
-  problems with others, but we require that you write up your solutions
-  by yourself and understand everything in it. We trust and expect
-  students to follow these policies vigilantly.
+The student *presenter* shall do the following:
+- 1 week before the lecture: Discuss the materials of the lecture, such as book sections, lecture notes, or papers. 
+- 2 days before the lecture: Finish reading materials, and post the outline or the summary of the lecture. 
+- First 10 minutes of the lecture: Talk about the topics at a high level, birefly; 
+  aim for 10 minutes presentation and roughly 1 minute for quick questions.
+  If well-prepared and agreed in advance, the presenter can take more time.
+- The remaining lecture: The instructor will talk about the topics in detail, but the student presenter shall participate in asking or answering questions.
+
+The *scriber* shall do the following:
+- Attend the lecture, and ask or answer questions.
+- In a week after the lecture, typeset and turn in scribed notes.
+- All scribed notes will be publicly posted on the course website.
+
+### Written assignments
+
+There will be optional written assignments.
+Similar to many other mathematical or theoretical courses, 
+most learning in this course is done by solving problems on your own and in collaboration with others.
+So, written assignments were often heavy in many complexity courses (we see that in the above courses).
+However, putting grades on written assignments may just incentivize copying AI solutions.
+Hence, we offer problem sets and due dates, and you will get feedback later if you turn in your solutions;
+there is no grades. 
 
 ### Quizzes
-This course (and actually many courses) encourages reading and thinking indepedently. Hence, pre-reading and reflection is required.
-For each week, we will post some pre-reading material of the coming week. The materials may be a textbook section or an online video, but they shall be short and readable in 10-20 minutes. You shall read / watch them and submit a short quiz, often due on Mondays at 10pm. 
-In the same quiz, you will be asked to reflect on the material of the past week.
 
-We require you to submit a total of 9 quizzes during the semester. 
-There will be more than 9 quizzes, you are encouraged to take all of them, but only your 9 best quizzes will be counted.
-Because the timing of pre-reading and reclection are essential, we disallow late submission (unless pre-approved by the instructor).
+We have two quizzes, each is short, likely 20 minutes.
+The purpose of quizzes is to assess students' progresses, so that the lectures can be fine-tuned. 
+We will discuss and finalize the date and time after the semester started.
 
-### Exams
-We will have the following exams in the semester.
-We count the best 3 out of 4 midterms.
 
-- **Midterm 0**: In class, **Tuesday, Feb 3, 2026**.
-- **Midterm 1**: In class, **Tuesday, Feb 24, 2026**.
-- **Midterm 2**: In class, **Tuesday, Mar 24, 2026**.
-- **Midterm 3**: In class, **Tuesday, Apr 14, 2026**.
-- **Final Exam**: **Monday, 4 May, 2:00pm - 5:00pm**.
-
-No collaboration is permitted on the exams. Students may construct a
-one-page (letter-size, two-sided) reference sheet for use during the
-exam, but all other resources are forbidden (no internet, textbook,
-other humans, magnification instruments, etc.). We will provide
-guidelines on what to expect on each exam, but you should
-expect them to focus on the most important concepts covered in the
-course with problems that you should be well perpared to solve if you
-understand the problems from the problem sets well.
-
-**Extensions and Late Submissions.** Extensions will be granted to
-individual students on a case-by-case basis. We are more likely to
-respond positively to an extension request if it is made well before
-an assignment is due and provides a reasonable justification for the
-extension.
-
-We are sympathetic to situations where a traumatic late event prevents
-you from being able to complete an assignment, and appreciate you
-bringing these to our attention even if the deadline has passed.
-
-If you find that you will be unable to make one of the scheduled
-exams, contact the course instructors immediately.
-   -->
-
-<!-- 
----------------------------------------------------------------------
-TO REVISE BELOW:
 ## Grading
 
 We encourage students to spend your energy focusing on what you are
@@ -233,10 +210,10 @@ receive in the course:
 
 | Item                      | Standard Weighting                          |
 |---------------------------|---------------------------------------------|
-|Homework (10 expected)     | 27%     |
-|Quizzes                    | 5%      |
-|Midterm                    | 45%     |
-|Final Exam                 | 23%     |
+|Presenting the lecture overview | 54%     |
+|Scribing lecture notes          | 36%     |
+|Quizes                     | 10%     |
+
 
 With the exception of cases of academic dishonesty or inappropriate
 behavior, we guarantee that you will a grade that is not below the
@@ -272,7 +249,9 @@ class as well as beyond. Hence, we give bonus points occasionally.
 That includes (but not limited to) solving challenge problems in problem sets, 
 reporting bugs in the course materials, and participating in class.
 We will clearly make the bonus points in problems, but in some cases, 
-it is up to the instructor's discretion. In general, the staff reserve the right to "bump up" the grades.
+it is up to the instructor's discretion.
+In general, the staff reserve the right to "bump up" the grades.
+
 
 ## Honor Expectations
 
@@ -290,15 +269,6 @@ each student studies the provided materials and attempts to solve the
 problems on their own. After that, you are welcome to also discuss
 problems on the problem sets with students and others.
 
-Many problems in this course will be selected from problems used in
-previous courses, as well as well known problems. The goal of these
-problems is to lead students to develop understanding of the
-underlying concepts by working through the problems themselves and in
-discussions with others, and this goal would be defeated if you
-instead use posted solutions to the problems (that includes generative AI such as ChatGPT). Other than using
-solutions to the specific problems you are given, students are
-encouraged to use any other resources they find helpful.
-  
 We aim to make the language describing the policy as clear
 and unambiguous as possible, but if anything is ever unclear about
 the stated policy for an assignment, please clarify with the course
@@ -306,9 +276,7 @@ staff. The penalty for policy violations will be considered on a
 case-by-case basis, with a penalty commensurate the severity of the
 offense.
 
----------------------------------------------------------------------
- -->
- 
+
 ## Additional Information
 
 **Special Circumstances:** The University of Virginia strives to provide accessibility to all students. If you require an accommodation to fully access this course, please contact the Student Disability Access Center (SDAC) at (434) 243-5180 or `sdac@virginia.edu`. If you are unsure if you require an accommodation, or to learn more about their services, you may contact the SDAC at the number above or by visiting their website [https://studenthealth.virginia.edu/sdac](https://studenthealth.virginia.edu/sdac)
