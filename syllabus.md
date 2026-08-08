@@ -96,7 +96,7 @@ Students will be asked to turn in assignments that is typeset in LaTeX.
 **Office Hours:**
 <!-- The full office hours schedule is available on the [course calendar](https://calendar.google.com/calendar/embed?src=292e8ddb35fbfb071102435db2822547ef891ab66dfd7eb00e075e0ea54a45bd%40group.calendar.google.com). -->
 <!-- Office hour:  -->
-Mondays, 11am - 12pm, Rice Hall 505.
+Thursdays, 9am - 10am.
 
 
 ## Learning Materials
