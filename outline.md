@@ -10,7 +10,75 @@ Tentative Outline
 
 The following outline is planned before the semester starts. 
 As the course goes, we will post the exact topics.
-The following [AB, xxx] denotes the chapter xxx of the Arora-Barak textbook, 
+
+1. Introduction. Computation models. DTIME and P.
+   
+1. NP, EXP, NEXP, co-NP.
+
+1. Diagonalization, time hierarchy.
+
+2. Space complexity, PSPACE, L, NL.
+
+2. Savitch’s Theorem. NL = coNL.
+
+2. Alternation. Polynomial hierarchy. 
+
+2. Time vs Space vs Alternation. 
+
+2. Circuits and formulas. Uniform. Time vs circuit size. Karp-Lipton Theorem. Branching programs. 
+
+2. Randomness. Polynomial identity testing. ZPP, RP, BPP.
+
+2. BPP and other classes.
+
+2. Interaction. IP, AM, MA.
+
+   (End of Sep)
+
+3. IP = PSPACE
+
+3. (Buffer)
+
+3. Cryptography
+
+3. PCP, hardness of approximation.
+
+3. NP in PCP(poly(n), 1)
+
+3. Derandomization. Pseudorandom generators.
+
+3. Nisan-Wigderson PRG.
+
+   (End of Oct)
+
+4. Random walks, eigen values, expanders.UPATH in L.
+
+4. Extractors.
+
+4. Dinur’s Proof of PCP Theorem, 1
+
+
+4. Dinur’s Proof of PCP Theorem, 2
+
+4. (Buffer)
+
+4. Communication complexity
+
+4. Circuit lower bounds
+
+4. Natural proofs
+
+   (End of Nov)
+
+5. #P
+
+5. Toda’s Theorem
+
+
+## Longer Outline
+
+The following longer outline provides the materials of each lecture. 
+[AB, xxx] denotes the chapter xxx of the Arora-Barak textbook, 
 while [Sudan24, yyy] denotes the lecture yyy of the [Lecture Notes of Sudan 2024](https://drive.google.com/file/d/19OoErNeUziot3eVn7v7xp-R5mEsFTjrh/view?usp=drive_link).
 
 1. Introduction. Computation models. DTIME and P.
