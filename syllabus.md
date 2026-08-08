@@ -59,17 +59,6 @@ problem cannot be solved or is too expensive to solve.
 - Interactive proofs and probabilistic-checkable proofs.
 - Derandomization and pseudorandomness.
 - Some lower bounds and natural proofs.
-<!-- 
-- Improve their [mathematical thinking skill and
-  habits](https://medium.com/@jeremyjkun/habits-of-highly-mathematical-people-b719df12d15e),
-  including thinking precisely about definitions, stating assumptions
-  carefully, critically reading arguments, and being able to write
-  convincingly, and being wrong often and admit it.
-- Be able to understand both finite and infinite formal models of computation and to reason about what they can and cannot compute.
-- Understand both intuitively and formally what makes some problems either impossible or too expensive to solve with a computer, and what can be done in practice when an unsolvable or intractable problem is encountered.
-- Reason formally about the cost of computation, and be able to prove useful bounds on the costs of solving problems, including showing that certain problems cannot be solved efficiently.
-- Learn about some interesting aspects of theoretical computer science, and why understanding them matters even if you are only interested in building practical computing systems.
- -->
 
 
 <!-- <a name="meetings"></a> -->
