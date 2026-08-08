@@ -91,12 +91,12 @@ Students will be asked to turn in assignments that is typeset in LaTeX.
   [communications](#communication) to determine if it would be better to post a message
   in [*Piazza*](https://piazza.com/virginia/spring2026/cs3120) before emailing us).
  -->
+![Wei-Kai](assets/images/20231027-wei-kai-lin-square.jpg){: style="display: block; margin: 0 auto; border-radius: 50%; max-width: 10em;"}
 
 **Office Hours:**
 <!-- The full office hours schedule is available on the [course calendar](https://calendar.google.com/calendar/embed?src=292e8ddb35fbfb071102435db2822547ef891ab66dfd7eb00e075e0ea54a45bd%40group.calendar.google.com). -->
-
-![Wei-Kai](assets/images/20231027-wei-kai-lin-square.jpg){: style="display: block; margin: 0 auto; border-radius: 50%; max-width: 10em;"}
-Office hour: Mondays, 11am - 12pm, Rice Hall 505.
+<!-- Office hour:  -->
+Mondays, 11am - 12pm, Rice Hall 505.
 
 
 ## Learning Materials
@@ -110,7 +110,10 @@ The book [Introduction to Theoretical Computer Science](https://introtcs.org/pub
 For the course materials, complexity is taught in many institutes, and some of them maintained high-quality lecture notes and scribes.
 Here are some of them.
 
-- Computational Complexity, Harvard, 2024, by Madhu Sudan. [A copy of timetable](assets/sudan2024-complexity_course/Sheet1.html), and [All Lecture Notes](https://drive.google.com/file/d/19OoErNeUziot3eVn7v7xp-R5mEsFTjrh/view?usp=drive_link). There are lecture notes, scribes, and HW problems. We plan to cover many topic in this course.
+- Computational Complexity, Harvard, 2024, by Madhu Sudan. 
+  [Syllabus](https://docs.google.com/document/d/1Y4kPDuRivxYUXYFD0OBL53s-oSTlGwi_/edit?usp=sharing&ouid=118278620617039760682&rtpof=true&sd=true) and [All Lecture Notes](https://drive.google.com/file/d/19OoErNeUziot3eVn7v7xp-R5mEsFTjrh/view?usp=drive_link).
+  We plan to cover many topic in this course.
+  <!-- There are lecture notes, scribes, and HW problems; they can be find in [A copy of timetable](assets/sudan2024-complexity_course/Sheet1.html). -->
 - Computational Complexity, UW, 2024, by Thomas Rothvoss. [Lecture notes](https://sites.math.washington.edu/~rothvoss/archive/lecturenotes/complexity-CSE531-Winter2024.pdf).
 - Computational Complexity, Princeton, 2009, by Boaz Barak. [Website](https://www.cs.princeton.edu/courses/archive/spring09/cos522/). The website gives lecture notes, HW problems, and links to many materials.
 
@@ -256,7 +259,10 @@ all students at the university deserve to be trusted.
 learn by thinking about problems on their own, so it is expected that
 each student studies the provided materials and attempts to solve the
 problems on their own. After that, you are welcome to also discuss
-problems on the problem sets with students and others.
+problems on the problem sets with students and others, 
+including search engines and AI/LLM tools, such as ChatGPT.
+Whenever collaboration or references is used, 
+*it is required to cite, quote, and state the source precisely and clearly* to academic standards.
 
 We aim to make the language describing the policy as clear
 and unambiguous as possible, but if anything is ever unclear about

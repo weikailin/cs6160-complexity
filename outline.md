@@ -54,7 +54,7 @@ while [Sudan24, yyy] denotes the lecture yyy of the [Lecture Notes of Sudan 2024
 3. (Buffer)
 
 3. Cryptography
-   [AB, Chapt 9] [Jack?]
+   [AB, Chapt 9]
 
 3. PCP, hardness of approximation.
    [AB, Chapt 10] [Sudan24, Probabilistically checkable proofs. Inapproximability. (2021 Notes, video, scribe.zip, scribe.pdf) ]
