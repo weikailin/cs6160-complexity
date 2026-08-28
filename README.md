@@ -17,22 +17,24 @@ This is the graduate-level course of Theory of Computation, but we focus on *Com
 Hence, we more often use *Complexity* in the course name for short.
 
 
-<!-- 
 ## Recent Announcements
 
-[(List of announcements)](#list-of-updates)
+<!-- [(List of announcements)](#list-of-updates) -->
 
 
-### Class 28: Review, Gödel's Imcompleteness Theorem
-(Apr 28, 2026)
+### Class 1: Syllabus, Turing Machines
+(Aug 26, 2026)
 
-We reviewed the five modules in this course.
-As an exercise, we considered the set $$S$$ of infinite sequences of real numbers, $$S = \{(a_0, a_1, a_2, \dots) ~\mid~ a_i \in \mathbb{R} \text{ all } i \}$$, which is proved to be uncountable but the cardinality is the same as the real number set, $$|S| = |\mathbb{R}|$$.
-We also briefly introduced proof systems in the view of algorithms, and we showed a variant of Gödel's Imcompleteness Theorem for statement of machines.
-Slides are [here](assets/pdf/cs3120-class28-ink.pdf).
+We went through the [syllabus](syllabus.md).
+It coveres the course goals, prerequisites, communication, and coursework.
+Notice that WK updated the participation weights to 9% and 6% for presenting and scribing correspondingly.
+The syllabus shall be fixed after this week.
 
-Quiz 13 is posted on Gradescope.
+For technical materials, we covered Turing Machines, computability, and computation time.
+They serve our purposes of agreeing on a formal model of computation, on the math notations, and our communication.
 
+
+<!-- 
 ### Tentative syllabus posted
 (Jan 9, 2026)
 

@@ -202,8 +202,8 @@ receive in the course:
 
 | Item                      | Standard Weighting                          |
 |---------------------------|---------------------------------------------|
-|Presenting the lecture overview | 54%     |
-|Scribing lecture notes          | 36%     |
+|Presenting the lecture overview (9% for participation) | 54%     |
+|Scribing lecture notes (6% for participation)          | 36%     |
 |Quizes                     | 10%     |
 
 
