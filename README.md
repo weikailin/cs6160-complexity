@@ -25,7 +25,7 @@ Hence, we more often use *Complexity* in the course name for short.
 (Aug 31, 2026)
 
 We briefly showed Gödel's incompleteness.
-The proof is adapted from [Barak's TCS book](https://introtcs.org/public/lec_09_godel.html#g%C3%B6dels-incompleteness-theorem-computational-variant); see also Section 1.5.2 of Arora-Barak, with the comment "the set of true mathematical statements in undecidable."
+The proof is adapted from [Barak's TCS book](https://introtcs.org/public/lec_09_godel.html#g%C3%B6dels-incompleteness-theorem-computational-variant); see also Section 1.5.2 of Arora-Barak, with the comment "the set of true mathematical statements is undecidable."
 We continued with the complexity classes P and NP.
 Following that, an important concept is the (polynomial-time) reductions between two problems; that will be bread and butter in this course.
 
