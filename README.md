@@ -40,7 +40,7 @@ The syllabus shall be fixed after this week.
 For technical materials, we covered Turing Machines, computability, and computation time.
 They serve our purposes of agreeing on a formal model of computation, on the math notations, and our communication.
 
-[Scribed notes](assets/pdf/cs6160-scribe1-aug26.pdf)
+[&#x1F4DD; Lecture notes](assets/pdf/cs6160-scribe1-aug26.pdf)
 
 <!-- 
 ### Tentative syllabus posted

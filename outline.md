@@ -201,4 +201,7 @@ while [Sudan24, yyy] denotes the lecture yyy of the [Lecture Notes of Sudan 2024
 <!-- HTML symbols: 
 x1F4D6: open book
 x1F3E0: house
-https://www.w3schools.com/charsets/ref_emoji_office.asp -->
+x1F4DD: Memo
+example: &#x1F4DD;
+https://www.w3schools.com/charsets/ref_emoji_office.asp
+-->
