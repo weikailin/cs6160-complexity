@@ -21,10 +21,28 @@ Hence, we more often use *Complexity* in the course name for short.
 
 <!-- [(List of announcements)](#list-of-updates) -->
 
+### Class 4: Time Hierachy Theorem, Oracle Machines
+(Sep 7, 2026)
 
+Jinye talked about Ladner's Theorem. 
+It is a proof by diagonalization, and the theorem states that if $$\mathbf{P} \neq \mathbf{NP}$$, then there exists an NP problem that is neither in P nor NP-complete.
+
+We then presented and proved the time hierarchy theorem, proved by Hartmanis and Stearns at 1965.
+The proof can be viewed as an extension of Turing's halting problem, where many steps in the two proofs are one-to-one mapped.
+The proof and statement extends to other resources, such as nondeterministic time hierarchy.
+With that, we can clearly say that P is a strict subset of EXP, and similarly for other classes.
+We compared the classes P, NP, EXP, and NEXP.
+Deebak asked for a complete problem in NEXP, I did not know one and searched.
+[Galperin-Wigderson'83](https://www.sciencedirect.com/science/article/pii/S0019995883800047) gives some languages, but I did not check whether the question is fully answered.
+
+We continued to define oracle machines, which are Turing Machines augmented with an oracle function $$O$$.
+The oracle may give the machine extra capability because computing the function $$O$$ takes no resource.
+With that, we also defined oracle-aided classes, such as $$DTIME^O$$ and $$\mathbf{P}^O$$.
+As pointed out by Avery and the textbook, the proofs and theorems by diagonalization, such as time hierarchy, still work after plugging in any oracle function.
+That suggests that diagonalization is unuseful to prove P not equal NP, which we will discuss in the next lecture.
 
 ### Class 3: Cook-Levin, 3SAT, Classes EXP and NEXP
-(Sep, 2026)
+(Sep 2, 2026)
 
 Deebak presented the Time Hierarchy theorem of Hartmanis and Stearns.
 This is a theorem I wish I could have learned when I was a student!

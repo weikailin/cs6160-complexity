@@ -5,6 +5,18 @@ nav_order: 99
 nav_exclude: false
 ---
 
+Outline to Date
+-----------------
+
+1. Introduction. Turing Machines. Uncomputability.
+
+1. Gödel's incompleteness. Classes P and NP. Reductions.
+
+1. Cook-Levin Theorem. Classes EXP and NEXP.
+
+1. Ladner's Theorem. Time hierarchy theorem. Oracle machines.
+
+
 Tentative Outline
 -----------------
 
