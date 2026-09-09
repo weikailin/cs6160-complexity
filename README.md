@@ -21,6 +21,19 @@ Hence, we more often use *Complexity* in the course name for short.
 
 <!-- [(List of announcements)](#list-of-updates) -->
 
+### Class 5: Limits of Diagonalization, SPACE and NSPACE, PSPACE
+(Sep 9, 2026)
+
+Zhizhen talked about SPACE and NSPACE classes and their relation to DTIME classes.
+An important observation is that when space is bounded, the number of Turing-Machine configurations is bounded, and that imply many results.
+Namely, we have $$\mathbf{NSPACE}(s(n)) \subseteq \mathbf{DTIME}(2^{O(s)})$$.
+
+We finished P vs NP with the limitation of diagonalization, which is roughly equivalent to proofs that uses TMs in a black-box way.
+We argued that there is no black-box proof showing P not equal to NP, but we still do not know to non-black-box prove it.
+Next, we continued with clarifying the definition of NSPACE, and we discussed how to define a configuration so that it is easier to solve $$\mathbf{NSPACE}(s(n))$$ using $$\mathbf{DTIME}(2^{O(s)})$$.
+We ended with defining PSPACE and PSPACE-completeness.
+
+
 ### Class 4: Time Hierachy Theorem, Oracle Machines
 (Sep 7, 2026)
 
