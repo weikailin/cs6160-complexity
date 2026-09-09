@@ -19,7 +19,7 @@ Hence, we more often use *Complexity* in the course name for short.
 
 ## Recent Announcements
 
-<!-- [(List of announcements)](#list-of-updates) -->
+[(List of announcements)](#list-of-updates)
 
 ### Class 5: Limits of Diagonalization, SPACE and NSPACE, PSPACE
 (Sep 9, 2026)
@@ -116,9 +116,9 @@ They serve our purposes of agreeing on a formal model of computation, on the mat
 (Jan 9, 2026)
 
 Please take a look at [the syllabus](syllabus.md) although it could change later.
+ -->
 
 
 ## List of Updates
 1. TOC
 {:toc}
- -->
