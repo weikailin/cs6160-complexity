@@ -83,6 +83,7 @@ The proof is adapted from [Barak's TCS book](https://introtcs.org/public/lec_09_
 We continued with the complexity classes P and NP.
 Following that, an important concept is the (polynomial-time) reductions between two problems; that will be bread and butter in this course.
 
+[&#x1F4DD; Scribed notes](assets/pdf/cs6160-scribe2-aug31.pdf)
 
 ### Class 1: Syllabus, Turing Machines
 (Aug 26, 2026)
@@ -95,7 +96,7 @@ The syllabus shall be fixed after this week.
 For technical materials, we covered Turing Machines, computability, and computation time.
 They serve our purposes of agreeing on a formal model of computation, on the math notations, and our communication.
 
-[&#x1F4DD; Lecture notes](assets/pdf/cs6160-scribe1-aug26.pdf)
+[&#x1F4DD; Scribed notes](assets/pdf/cs6160-scribe1-aug26.pdf)
 
 <!-- 
 ### Tentative syllabus posted
