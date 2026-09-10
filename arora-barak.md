@@ -15,7 +15,7 @@ Errata
 I checked the [authors' website](https://theory.cs.princeton.edu/complexity/) and the [publisher's website](http://www.cambridge.org/us/catalogue/catalogue.asp?isbn=9780521424264) but did not find errata.
 So, I wrote some below.
 
-- P. 72, 2nd bullet, "Thus for large enough formulae $$\psi$$ ... string of the type $$\psi 01^{H(\card{\psi})}$$ ...." It should be $$\psi 01^{n^{H(|\psi|)}}$$.
+- P. 72, 2nd bullet, "Thus for large enough formulae $$\psi$$ ... string of the type $$\psi 01^{H(\card{\psi})}$$ ...." It should be $$\psi 01^{n^{H(\card{\psi})}}$$.
 
 - P. 75, 1st paragraphy, "... ensuring $$1^n \in B_u$$." It should be $$U_B$$.
 
