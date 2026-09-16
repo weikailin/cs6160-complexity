@@ -16,6 +16,11 @@ Outline to Date
 
 1. Ladner's Theorem. Time hierarchy theorem. Oracle machines.
 
+1. Limits of diagonalization. SPACE and NSPACE.
+
+1. Quantified boolean formula is PSPACE-complete.
+
+
 
 Tentative Outline
 -----------------

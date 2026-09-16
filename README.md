@@ -21,6 +21,37 @@ Hence, we more often use *Complexity* in the course name for short.
 
 [(List of announcements)](#list-of-updates)
 
+### Class 7: Savitch's Theorem, Complement Classes, NL = coNL
+(Sep 16, 2026)
+
+We reviewed PSPACE-completeness by comparing the QBF problem with two-player games.
+We also remarked that the proof of QBF to be PSPACE-complete generalizes in Savitch's Theorem, which states that $$\mathbf{NSPACE}(S(n)) = \mathbf{SPACE}(S(n)^2)$$.
+
+We then introduced the complement of a complexity class.
+That gives many classes we do not know how to compare: while coP = P, we do not know if coNP equals NP.
+Namely, for many problems in coNP, it is unclear how to prove them in NP because we do not know the NP witness.
+More generally, DTIME(T(n)) = coDTIME(T(n)), but NTIME(T(n)) vs coNTIME(T(n)) is unclear.
+Similarly, we have SPACE(S(n)) = coSPACE(S(n)).
+However, surprisingly, NSPACE(S(n)) = coNSPACE(S(n)).
+This is proved through $$NotPATH \in \mathbf{NL}$$ using a carefully designed witness/certificate, where NotPATH(G, s, t) is the decision problem that outputs 'Yes' if there is no s-t path in the graph G.
+
+
+### Class 6: Quantified Boolean Formula is PSPACE-Complete
+(Sep 14, 2026)
+
+Andrew talked about the Tree Evaluation Problem of S. Cook et al. (ACM Trans. Comput. Theory, 2012).
+It is the essential tool in the work of Williams (STOC, 2025).
+Williams proved that any problem solveable by a multi-tape Turing machine in time $$T(n)$$ can also be solved in space $$\sqrt{T(n) \log T(n)}$$, a huge success in complexity and algorithms!
+See the beautiful paper and video recordings of Williams:
+- Paper: https://arxiv.org/pdf/2502.17779
+- Video at IAS: https://youtu.be/1qwDO5ulUFs
+- Video at TCS+: https://youtu.be/tM9ekW6FAS8
+
+We defined Quantified Boolean Formula (QBF) and showed that it is PSPACE-complete to decide whether a QBF is true.
+As for NP-completeness, the more challenging step is to reduce from any PSPACE problem to a QBF in polynomial time.
+Notice that the reduction efficiently uses time by alternating the exist and for-all quantifiers.
+This is consistent with the special cases: had the reduction used only the exist quantifier, the result would be SAT, which is intuitively easier than PSPACE.
+
 ### Class 5: Limits of Diagonalization, SPACE and NSPACE, PSPACE
 (Sep 9, 2026)
 
