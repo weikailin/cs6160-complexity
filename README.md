@@ -85,6 +85,8 @@ With that, we also defined oracle-aided classes, such as $$DTIME^O$$ and $$\math
 As pointed out by Avery and the textbook, the proofs and theorems by diagonalization, such as time hierarchy, still work after plugging in any oracle function.
 That suggests that diagonalization is unuseful to prove P not equal NP, which we will discuss in the next lecture.
 
+[&#x1F4DD; Scribed notes](assets/pdf/cs6160-scribe4-sep7.pdf)
+
 ### Class 3: Cook-Levin, 3SAT, Classes EXP and NEXP
 (Sep 2, 2026)
 
