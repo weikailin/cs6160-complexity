@@ -20,6 +20,8 @@ Outline to Date
 
 1. Quantified boolean formula is PSPACE-complete.
 
+1. Savitch's theorem. Complement classes. NL = coNL.
+
 
 
 Tentative Outline
