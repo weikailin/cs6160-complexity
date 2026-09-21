@@ -84,6 +84,8 @@ We argued that there is no black-box proof showing P not equal to NP, but we sti
 Next, we continued with clarifying the definition of NSPACE, and we discussed how to define a configuration so that it is easier to solve $$\mathbf{NSPACE}(s(n))$$ using $$\mathbf{DTIME}(2^{O(s)})$$.
 We ended with defining PSPACE and PSPACE-completeness.
 
+[&#x1F4DD; Scribed notes](assets/pdf/cs6160-scribe5-sep9.pdf)
+
 
 ### Class 4: Time Hierachy Theorem, Oracle Machines
 (Sep 7, 2026)
