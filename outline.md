@@ -22,6 +22,8 @@ Outline to Date
 
 1. Savitch's theorem. Complement classes. NL = coNL.
 
+1. Williams' theorem. Tree evaluation problem.
+
 
 
 Tentative Outline

@@ -21,6 +21,26 @@ Hence, we more often use *Complexity* in the course name for short.
 
 [(List of announcements)](#list-of-updates)
 
+### Class 8: Williams' Theorem, Tree Evaluation Problem
+(Sep 21, 2026)
+
+Nathan presented polynomial hierarchy.
+They are natural extensions of P, NP, and coNP.
+A natural problem to remember is ExactIndepSet, which gives $$(G, k)$$ and asks whether largest independent set on the graph $$G$$ is exactly $$k$$ vertices.
+While we do not know if ExactIndepSet is in NP or coNP, ExactIndepSet is in the next class of polynomial hierarchy.
+The polynomial hierarchy is also a natural restriction of QBF.
+
+We then stated and proved Williams' Theorem.
+That is, any problem solvable in time $$T(n)$$ can be solved in space $$O(\sqrt{T \log T})$$.
+Our proof is the simpler but weaker version, which proved space  $$O(\sqrt{T} (\log T)^{3/2})$$.
+We also briefly mentioned the key idea of Cook-Mertz tree-evaluation algorithm.
+The technique of Cook-Mertz uses a storage that is filled with some other data, but the other data is modified and recovered in the end of the subroutine.
+"Using data-occupied" space while recover the data in the end of computation is developed recently and termed "catalytic" algorithms, as catalysts in chemical reactions.
+
+The entire proof of Williams, including Cook-Mertz, is based on elementary algebra and Turing machines.
+It is highly recommended to read.
+
+
 ### Class 7: Savitch's Theorem, Complement Classes, NL = coNL
 (Sep 16, 2026)
 
