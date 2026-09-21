@@ -143,6 +143,9 @@ More discussion is welcome.
 AI Disclosure:
 I used GPT in the above questions and answers marked with "@", and *the fast-mode GPT wronly insisted that PSPACE is a **strict** subset of EXP unconditionally*, but it said open with think deeper.
 
+[&#x1F4DD; Scribed notes](assets/pdf/cs6160-scribe3-sep2.pdf)
+
+
 ### Class 2: Gödel, Classes P and NP
 (Aug 31, 2026)
 
