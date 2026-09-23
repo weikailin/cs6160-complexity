@@ -137,7 +137,7 @@ Notice that it is unclear how to prove it using the *deterministic* time hierarc
 Nathaneal asked the question:
 If EXP = NEXP, is P = NP?
 I thought about it when I read the converse. I guessed it is open.
-A brief search showed it open.@
+A brief search showed it open.
 More discussion is welcome.
 
 AI Disclosure:
