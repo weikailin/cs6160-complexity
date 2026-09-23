@@ -21,6 +21,22 @@ Hence, we more often use *Complexity* in the course name for short.
 
 [(List of announcements)](#list-of-updates)
 
+
+### Class 9: Alternating Turing Machine, Fortnow's Theorem
+(Sep 23, 2026)
+
+Avery talked about the non-uniform class P/poly and presented Karp-Lipton Theorem.
+Karp-Lipton shows that if $$\mathbf{NP} \subseteq \mathbf{P}/poly$$, then the polynomial hierarchy collapses to $$\Sigma_2^p$$.
+Notice that in the proof, we replaced a quantified boolean formula by a boolean circuit (without quantification), which is in general a step we have when proving the polynomial hierarchy collapses.
+
+We introduced alternating Turing machines and their execution.
+It is probably easier to see the classes using the "witness" definition, but it is also a good practice to define the machines directly.
+With that, we proved Fortnow's Theorem.
+It is an unconditional impossibility and says that SAT cannot be solved when restricting to $$O(n^{1.1})$$ time and $$O(n^{0.1})$$ space.
+Notice that if we restrict only time or only space, the problem remains open.
+Fortnow's Theorem is surprisingly proved (by a sequence of reductions) through $$\Sigma_2\mathbf{TIME}$$, showing an application of alternating TM.
+See also [this note from Sudan's course](https://people.seas.harvard.edu/~madhusudan/MIT/ST07/scribe/lect08.pdf).
+
 ### Class 8: Williams' Theorem, Tree Evaluation Problem
 (Sep 21, 2026)
 
@@ -71,6 +87,8 @@ We defined Quantified Boolean Formula (QBF) and showed that it is PSPACE-complet
 As for NP-completeness, the more challenging step is to reduce from any PSPACE problem to a QBF in polynomial time.
 Notice that the reduction efficiently uses time by alternating the exist and for-all quantifiers.
 This is consistent with the special cases: had the reduction used only the exist quantifier, the result would be SAT, which is intuitively easier than PSPACE.
+
+(&#x1F4DD; no scribed notes.)
 
 ### Class 5: Limits of Diagonalization, SPACE and NSPACE, PSPACE
 (Sep 9, 2026)

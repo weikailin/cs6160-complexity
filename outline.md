@@ -24,6 +24,7 @@ Outline to Date
 
 1. Williams' theorem. Tree evaluation problem.
 
+1. Alternating Turing machines. Fortnow's theorem.
 
 
 Tentative Outline
