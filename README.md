@@ -36,6 +36,7 @@ It is an unconditional impossibility and says that SAT cannot be solved when res
 Notice that if we restrict only time or only space, the problem remains open.
 Fortnow's Theorem is surprisingly proved (by a sequence of reductions) through $$\Sigma_2\mathbf{TIME}$$, showing an application of alternating TM.
 See also [this note from Sudan's course](https://people.seas.harvard.edu/~madhusudan/MIT/ST07/scribe/lect08.pdf).
+Later, [Williams improved the impossibility](https://people.csail.mit.edu/rrw/sat-journal-final.pdf).
 
 ### Class 8: Williams' Theorem, Tree Evaluation Problem
 (Sep 21, 2026)
