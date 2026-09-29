@@ -21,6 +21,26 @@ Hence, we more often use *Complexity* in the course name for short.
 
 [(List of announcements)](#list-of-updates)
 
+### Class 10: Fortnow's Theorem, Non-uniform Machines
+(Sep 28, 2026)
+
+Wish talked about Meyer's Theorem, which is similar and related to Karp-Lipton Theorem.
+
+We continued with detailed steps in the proof of Fortnow's Theorem, saying that $$\mathit{SAT}\notin \mathbf{TISP}(n^{1.1}, n^{0.1})$$.
+Particularly, we prove that
+- Claim 2: $$\mathbf{TISP}(n^{12}, n^{2}) \subseteq \mathbf{\Sigma_2 TIME}(n^8)$$.
+- Claim 3: if $$\mathbf{NTIME}(n) \subseteq \mathbf{DTIME}(n^{1.2})$$ then $$\mathbf{\Sigma_2 TIME}(n^8) \subseteq \mathbf{NTIME}(n^{9.6})$$ (Claim 3).
+Recall that
+- Claim 1: if $$\mathit{SAT} \in \mathbf{TISP}(n^{1.1}, n^{0.1})$$ then $$\mathbf{NTIME}(n) \subseteq \mathbf{TISP}(n^{1.2})(n^{1.2})$$.
+
+I asked that which claim is more interesting and surprising.
+Many student said Claim 2.
+It was probably because Claim 2 is unconditional, while Claim 3 assumes the extremely strong $$\mathbf{NTIME}(n) \subseteq \mathbf{DTIME}(n^{1.2})$$.
+That is indeed the case: look at the entire proof, only Claim 2 uses that SAT, or NTIME problems, can be solved when both time and space are restricted on *the same* algorithm.
+
+We introduced non-uniform Turing machines and the unary halting problem.
+That shows 
+
 
 ### Class 9: Alternating Turing Machine, Fortnow's Theorem
 (Sep 23, 2026)
