@@ -29,7 +29,8 @@ Wish talked about Meyer's Theorem, which is similar and related to Karp-Lipton T
 We continued with detailed steps in the proof of Fortnow's Theorem, saying that $$\mathit{SAT}\notin \mathbf{TISP}(n^{1.1}, n^{0.1})$$.
 Particularly, we prove that
 - Claim 2: $$\mathbf{TISP}(n^{12}, n^{2}) \subseteq \mathbf{\Sigma_2 TIME}(n^8)$$.
-- Claim 3: if $$\mathbf{NTIME}(n) \subseteq \mathbf{DTIME}(n^{1.2})$$ then $$\mathbf{\Sigma_2 TIME}(n^8) \subseteq \mathbf{NTIME}(n^{9.6})$$ (Claim 3).
+- Claim 3: if $$\mathbf{NTIME}(n) \subseteq \mathbf{DTIME}(n^{1.2})$$ then $$\mathbf{\Sigma_2 TIME}(n^8) \subseteq \mathbf{NTIME}(n^{9.6})$$.
+
 Recall that
 - Claim 1: if $$\mathit{SAT} \in \mathbf{TISP}(n^{1.1}, n^{0.1})$$ then $$\mathbf{NTIME}(n) \subseteq \mathbf{TISP}(n^{1.2})(n^{1.2})$$.
 
@@ -39,7 +40,6 @@ It was probably because Claim 2 is unconditional, while Claim 3 assumes the extr
 That is indeed the case: look at the entire proof, only Claim 2 uses that SAT, or NTIME problems, can be solved when both time and space are restricted on *the same* algorithm.
 
 We introduced non-uniform Turing machines and the unary halting problem.
-That shows 
 
 
 ### Class 9: Alternating Turing Machine, Fortnow's Theorem
