@@ -21,6 +21,19 @@ Hence, we more often use *Complexity* in the course name for short.
 
 [(List of announcements)](#list-of-updates)
 
+### Class 11: Non-uniform Heirarchy, NC, AC, P-completeness
+(Sep 30, 2026)
+
+Jinye talked about Kannan's Theorem. 
+Here is [a note on the theorems](https://cnchou.github.io/notes/Kannan.html) by Chi-Ning Chou.
+
+We proved non-uniform hierarchy, which is an existential impossibility, just like the time hierarchy.
+Then, we introduced classes $$\mathbf{NC}$$ and  $$\mathbf{AC}$$.
+They model parallel computation.
+Afterward, we defined $$\mathbf{P}$$-completeness by log-space reductions, and we related classes $$\mathbf{P}$$, $$\mathbf{NC}$$, and $$\mathbf{L}$$.
+We omitted the proof, but we can prove that the circuit evaluation problem $$\mathit{CircEval}$$ is P-complete.
+
+
 ### Class 10: Fortnow's Theorem, Non-uniform Machines
 (Sep 28, 2026)
 
