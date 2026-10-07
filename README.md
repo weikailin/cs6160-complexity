@@ -71,6 +71,9 @@ Fortnow's Theorem is surprisingly proved (by a sequence of reductions) through $
 See also [this note from Sudan's course](https://people.seas.harvard.edu/~madhusudan/MIT/ST07/scribe/lect08.pdf).
 Later, [Williams improved the impossibility](https://people.csail.mit.edu/rrw/sat-journal-final.pdf).
 
+[&#x1F4DD; Scribed notes](assets/pdf/cs6160-scribe9-sep23.pdf)
+
+
 ### Class 8: Williams' Theorem, Tree Evaluation Problem
 (Sep 21, 2026)
 
@@ -89,6 +92,8 @@ The technique of Cook-Mertz uses a storage that is filled with some other data, 
 
 The entire proof of Williams, including Cook-Mertz, is based on elementary algebra and Turing machines.
 It is highly recommended to read.
+
+[&#x1F4DD; Scribed notes](assets/pdf/cs6160-scribe8-sep21.pdf)
 
 
 ### Class 7: Savitch's Theorem, Complement Classes, NL = coNL
