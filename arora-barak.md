@@ -19,7 +19,7 @@ So, I wrote some below.
 
 - P. 75, 1st paragraphy, "... ensuring $$1^n \in B_u$$." It should be $$U_B$$.
 
-- P. 114, last (line) equation, "$$T(x, C(i), ...)$$," I suppose that $$T$$ should also take $$i$$ as input, where $$i$$ is polynomial in the input size $$n$$ as the computation time is exponential in $$n$$.
+- P. 114, last (line) equation in the Meyer's Theorem, "$$T(x, C(i), ...)$$," I suppose that $$T$$ should also take $$i$$ as input, where $$i$$ is polynomial in the input size $$n$$ as the computation time is exponential in $$n$$.
 
 - P. 131, Definition 7.6, $$x\notin L$$ should imply that $$\Pr[M(x)=0] = 1$$.
 
