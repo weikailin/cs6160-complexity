@@ -26,6 +26,14 @@ Outline to Date
 
 1. Alternating Turing machines. Fortnow's theorem.
 
+1. Proof of Fortnow's theorem. Definition of non-uniform TMs.
+
+1. Non-uniform hierarchy. NC. AC. P-completeness.
+   
+   (End of September.)
+
+1. Probabilistic TMs. BPP. RP. ZPP.
+
 
 Tentative Outline
 -----------------
