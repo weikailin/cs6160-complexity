@@ -21,6 +21,28 @@ Hence, we more often use *Complexity* in the course name for short.
 
 [(List of announcements)](#list-of-updates)
 
+### Class 12: Probilistic Turing Machines, BPP, RP, ZPP
+(Oct 7, 2026)
+
+We introduced Probabilistic Turing Machines (PTM), which are TMs that use an unbiased random bit at each step.
+Then, we showed the Polynomial Identity Test (PIT) problem, which is an example that can be solved efficiently with a randomized algorithm, or PTM.
+We do not (yet) know a deterministic algorithm that solves PIT in polynomial time.
+Thus, it seems that PIT and other similar problems are showing that randomness is a powerful resource and speeds up algorithms.
+However, we stress that there is no proof.
+Also, many people in the area believe that randomness *does not* give extra power to algorithms.
+That is, we might be able to prove that for an entire class $$S$$ of problems that are efficiently solveable using PTMs, we can solve all problems in $$S$$ efficiently using deterministic TMs.
+This is called *derandomization* and will be discussed later in this course. 
+
+As raised by many students in this class, we need to define when or what's called a PTM *solves* a problem.
+The first and perhaps more intuitive definition is $$\mathsf{BPTIME}$$ and $$\mathsf{BPP}$$.
+It requires that the PTM outpus the same as the language w.p. $$\ge 2/3$$, for all positive and negative instances.
+The probability is over the choices of the random coins.
+The second is one-sided, called $$\mathsf{RTIME}$$ and $$\mathsf{RP}$$, which are similar to $$\mathsf{BPP}$$ but additionally require that all negative instances are correct w.p. 1.
+All above requires the PTM to halt in a specific time $$T(n)$$ in (all) worst cases.
+The third, called $$\mathsf{ZTIME}$$ and $$\mathsf{ZPP}$$, only requires the PTM to halt in time $$T(n)$$ *in expectation*, but the answer must be correct w.p. 1 when halting for all instances.
+Notice that in this class, my slides and writing sometimes wrongly said ZP, which should be ZPP.
+
+
 ### Class 11: Non-uniform Heirarchy, NC, AC, P-completeness
 (Sep 30, 2026)
 
