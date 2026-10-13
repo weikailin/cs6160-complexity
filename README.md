@@ -30,7 +30,7 @@ We talked the conjecture that BPP is not more powerful than P.
 That is, given randomness, we probably still do not solve more problems in polynomial time.
 Notice that some problems, such as Polynomial Identity Test, can be in P, but we just haven't yet found the efficient and deterministic algorithm.
 
-Adleman's Theorem states that $$\mathbf{BPP} \subseteq \mathbf{P\/poly}$$.
+Adleman's Theorem states that $$\mathbf{BPP} \subseteq \mathbf{P/poly}$$.
 Its proof is a simple amplification of probability and then a counting argument.
 An unlikely hypothesis could be that $$\mathit{SAT}\in\mathbf{BPP}$$.
 If the hypothsis is true, by Adleman's Theorem and then by Karp-Lipton Theorem, the polynomial hierarchy collapses to $$\mathbf{\Sigma_2}$$.
