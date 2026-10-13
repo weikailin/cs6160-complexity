@@ -149,6 +149,8 @@ Similarly, we have SPACE(S(n)) = coSPACE(S(n)).
 However, surprisingly, NSPACE(S(n)) = coNSPACE(S(n)).
 This is proved through $$NotPATH \in \mathbf{NL}$$ using a carefully designed witness/certificate, where NotPATH(G, s, t) is the decision problem that outputs 'Yes' if there is no s-t path in the graph G.
 
+[&#x1F4DD; Scribed notes](assets/pdf/cs6160-scribe7-sep16.pdf)
+
 
 ### Class 6: Quantified Boolean Formula is PSPACE-Complete
 (Sep 14, 2026)
