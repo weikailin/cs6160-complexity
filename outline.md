@@ -34,6 +34,10 @@ Outline to Date
 
 1. Probabilistic TMs. BPP. RP. ZPP.
 
+1. BPP in P/Poly.
+
+
+
 
 Tentative Outline
 -----------------
