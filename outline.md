@@ -36,6 +36,7 @@ Outline to Date
 
 1. BPP in P/Poly.
 
+1. Sipser–Gács–Lautemann Theorem. RL and BPL.
 
 
 

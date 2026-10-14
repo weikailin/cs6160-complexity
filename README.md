@@ -21,6 +21,25 @@ Hence, we more often use *Complexity* in the course name for short.
 
 [(List of announcements)](#list-of-updates)
 
+### Class 14: Sipser–Gács–Lautemann Theorem, RL, BPL
+(Oct 14, 2026)
+
+Andrew introduced promise problems and their corresponding complexity classes.
+
+We proved Sipser–Gács–Lautemann Theorem, using a probabilistic method.
+In general, probabilistic methods proves the existence of a combinatorial object that satisfies some properties.
+It is extremely useful, and as in this proof, the probability boils down to counting, but the probability is much more comprehensible than counting.
+The existential property gives the existential quantifier needed in the class $$\mathbf{\Sigma_2^p}$$.
+
+Jinye asked that if we can find the strings $$u_1,\dots,u_k$$$ in $$\exists u_1,\dots,u_k \forall r, \bigvee_i (M(x; u_i \oplus r) = 1)$$.
+Notice that such strings may depend on $$x$$.
+If we could find them in polynomial time, then we could prove $$\mathbf{BPP} \subseteq \mathbf{coNP}$$, which is an open question.
+
+We introduced randomized logarithmic-space problems and their classes RL and BPL.
+It is interesting to see that undirected connectivity $$\mathit{UPATH} \in \mathbf{RL}$$.
+
+
+
 ### Class 13: BPP vs Other Classes
 (Oct 12, 2026)
 
