@@ -8,6 +8,8 @@ nav_exclude: false
 About Arora and Barak's Book
 ======================
 
+![Arora-Barak Book](assets/images/arora-barak-bookspine.jpg){: style="display: block; margin: 0 auto;"}
+
 
 Errata
 ---------
