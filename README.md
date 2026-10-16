@@ -81,6 +81,8 @@ All above requires the PTM to halt in a specific time $$T(n)$$ in (all) worst ca
 The third, called $$\mathsf{ZTIME}$$ and $$\mathsf{ZPP}$$, only requires the PTM to halt in time $$T(n)$$ *in expectation*, but the answer must be correct w.p. 1 when halting for all instances.
 Notice that in this class, my slides and writing sometimes wrongly said ZP, which should be ZPP.
 
+[&#x1F4DD; Scribed notes](assets/pdf/cs6160-scribe12-oct7.pdf)
+
 
 ### Class 11: Non-uniform Heirarchy, NC, AC, P-completeness
 (Sep 30, 2026)
