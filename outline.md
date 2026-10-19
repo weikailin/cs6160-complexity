@@ -9,40 +9,31 @@ Outline to Date
 -----------------
 
 1. Introduction. Turing Machines. Uncomputability.
-
-[&#x1F4DD; Scribed notes](assets/pdf/cs6160-scribe1-aug26.pdf)
+   [&#x1F4DD; Scribed notes.](assets/pdf/cs6160-scribe1-aug26.pdf)
 
 1. Gödel's incompleteness. Classes P and NP. Reductions.
-
-[&#x1F4DD; Scribed notes](assets/pdf/cs6160-scribe2-aug31.pdf)
+   [&#x1F4DD; Scribed notes.](assets/pdf/cs6160-scribe2-aug31.pdf)
 
 1. Cook-Levin Theorem. Classes EXP and NEXP.
-
-[&#x1F4DD; Scribed notes](assets/pdf/cs6160-scribe3-sep2.pdf)
+   [&#x1F4DD; Scribed notes.](assets/pdf/cs6160-scribe3-sep2.pdf)
 
 1. Ladner's Theorem. Time hierarchy theorem. Oracle machines.
-
-[&#x1F4DD; Scribed notes](assets/pdf/cs6160-scribe4-sep7.pdf)
+   [&#x1F4DD; Scribed notes.](assets/pdf/cs6160-scribe4-sep7.pdf)
 
 1. Limits of diagonalization. SPACE and NSPACE.
-
-[&#x1F4DD; Scribed notes](assets/pdf/cs6160-scribe5-sep9.pdf)
+   [&#x1F4DD; Scribed notes.](assets/pdf/cs6160-scribe5-sep9.pdf)
 
 1. Quantified boolean formula is PSPACE-complete.
-
-(&#x1F4DD; no scribed notes.)
+   (&#x1F4DD; no scribed notes.)
 
 1. Savitch's theorem. Complement classes. NL = coNL.
-
-[&#x1F4DD; Scribed notes](assets/pdf/cs6160-scribe7-sep16.pdf)
+   [&#x1F4DD; Scribed notes.](assets/pdf/cs6160-scribe7-sep16.pdf)
 
 1. Williams' theorem. Tree evaluation problem.
-
-[&#x1F4DD; Scribed notes](assets/pdf/cs6160-scribe8-sep21.pdf)
+   [&#x1F4DD; Scribed notes.](assets/pdf/cs6160-scribe8-sep21.pdf)
 
 1. Alternating Turing machines. Fortnow's theorem.
-
-[&#x1F4DD; Scribed notes](assets/pdf/cs6160-scribe9-sep23.pdf)
+   [&#x1F4DD; Scribed notes.](assets/pdf/cs6160-scribe9-sep23.pdf)
 
 1. Proof of Fortnow's theorem. Definition of non-uniform TMs.
 
@@ -51,8 +42,7 @@ Outline to Date
    (End of September.)
 
 1. Probabilistic TMs. BPP. RP. ZPP.
-
-[&#x1F4DD; Scribed notes](assets/pdf/cs6160-scribe12-oct7.pdf)
+   [&#x1F4DD; Scribed notes.](assets/pdf/cs6160-scribe12-oct7.pdf)
 
 1. BPP in P/Poly.
 
