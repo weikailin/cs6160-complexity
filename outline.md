@@ -38,6 +38,8 @@ Outline to Date
 
 1. Sipser–Gács–Lautemann Theorem. RL and BPL.
 
+1. Interactive proofs. Graph non-isomorphism.
+
 
 
 Tentative Outline

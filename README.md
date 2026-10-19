@@ -21,6 +21,32 @@ Hence, we more often use *Complexity* in the course name for short.
 
 [(List of announcements)](#list-of-updates)
 
+### Class 15: Interactive Proofs, Graph Non-Isomorphism
+(Oct 19, 2026)
+
+We commented on the BPP-completeness and BPTIME hierarchy and wrapped up the chapter.
+
+The next new chapter is on the languages that can be proved by *Interactive Proofs*.
+Recall that by Gödel's incompleteness, we can only prove a restricted set of statement, i.e., classes of languages.
+Still, the class can be a large set.
+
+We defined the class of *deterministic* interactive proofs, $$\mathbf{dIP}$$, that are efficiently verifiable (deterministically).
+Unsurprisingly, $$\mathbf{dIP} = \mathbf{NP}$$.
+That says interaction does not help proving statements.
+That is different from our human experiences in learning math proofs!
+Let's still be interactive---as the following $$\mathbf{IP}$$ class suggests, interaction is powerful.
+
+Relaxing the verifier to be a probabilistic Turing Machine, we defined the class $$\mathbf{IP}$$.
+Also, notice that throughout the chapter of interactive proofs, we consider the prover to be any function, which can even be incomputable, e.g., solve a halting problem.
+We illustrated the example of Graph Non-Isomorphism problem (GNI), and we proved that GNI is in IP.
+Because GNI is unlikely in NP, IP is probably a strict superset of NP.
+
+We proved that $$\mathbf{IP} \subseteq \mathbf{PSPACE}$$ by showing $$\mathbf{IP} \subseteq \mathbf{NPSPACE}$$ and then applying Savitch's Theorem.
+This is the first step toward proving $$\mathbf{IP} = \mathbf{PSPACE}$$.
+We will prove the second direction later.
+
+
+
 ### Class 14: Sipser–Gács–Lautemann Theorem, RL, BPL
 (Oct 14, 2026)
 
@@ -60,7 +86,7 @@ If we do not believe in the collapse, then we cannot solve SAT in BPP.
 Similarly, Sipser–Gács–Lautemann Theorem states that $$\mathbf{BPP} \subseteq \mathbf{\Sigma_2 \cap \Pi_2}$$.
 
 
-### Class 12: Probilistic Turing Machines, BPP, RP, ZPP
+### Class 12: Probabilistic Turing Machines, BPP, RP, ZPP
 (Oct 7, 2026)
 
 We introduced Probabilistic Turing Machines (PTM), which are TMs that use an unbiased random bit at each step.
