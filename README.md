@@ -113,7 +113,7 @@ Notice that in this class, my slides and writing sometimes wrongly said ZP, whic
 
 ### Older Updates and Notes
 
-[Time, Space, Alternation, Circuits](1-timespace.md)
+* [1. Time, Space, Alternation, Circuits](1-timespace.md)
 
 
 <!-- 
