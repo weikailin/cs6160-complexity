@@ -42,6 +42,7 @@ We illustrated the example of Graph Non-Isomorphism problem (GNI), and we proved
 Because GNI is unlikely in NP, IP is probably a strict superset of NP.
 
 We proved that $$\mathbf{IP} \subseteq \mathbf{PSPACE}$$ by showing $$\mathbf{IP} \subseteq \mathbf{NPSPACE}$$ and then applying Savitch's Theorem.
+Another [proof by Gemini is copied here](99-IP-PSPACE.md), which gives a deterministic PSPACE algorithm that is longer in description.
 This is the first step toward proving $$\mathbf{IP} = \mathbf{PSPACE}$$.
 We will prove the second direction later.
 
