@@ -21,6 +21,26 @@ Hence, we more often use *Complexity* in the course name for short.
 
 [(List of announcements)](#list-of-updates)
 
+### Class 16: PSPACE in IP
+(Oct 21, 2026)
+
+We finished Quiz 1 today.
+It is good to see our progress :)
+
+We continued with the class IP.
+Recall that we proved that IP is in PSPACE last time.
+Given that, although IP is defined without any computable prover, for any language in IP, we know that the language can be decided by a prover instantiated by a TM in PSPACE.
+That probably makes IP easier to think about.
+
+We next aim to prove that PSPACE is in IP, a surprising result by Shamir. 
+We began with the warmup problem $$\mathit{\#SAT_D}$$, which states that a 3-CNF $$\phi$$ has exactly $$K$$ satisfying assignments.
+Notice that $$\mathit{\#SAT_D}$$ is a decision problem and a generalization of the TAUTOLOGY problem.
+We showed the arithmetization of boolean formulas and then a *Sum-Check* protocol for polynomials.
+It is cool as the arithmetization is a one-to-one mapping between boolean formulas and polynomials, but then we evaluate polynomials on non-binary values.
+
+We will finish the theorem next week. 
+
+
 ### Class 15: Interactive Proofs, Graph Non-Isomorphism
 (Oct 19, 2026)
 

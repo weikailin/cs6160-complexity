@@ -22,6 +22,9 @@ I checked the [authors' website](https://theory.cs.princeton.edu/complexity/) an
 
 - P. 131, Definition 7.6, $$x\notin L$$ should imply that $$\Pr[M(x)=0] = 1$$.
 
+- P. 158, Section 8.3.1, $$x_i \vee \bar{x_j} \vee \bar{x_k}$$ should map to $$1 - (1-X_i)(X_j)(1-X_k)$$. That is, logical (a OR b) is mapped to NOT((NOT a) AND (NOT b)).
+
+- P. 159, Eq (8.8), should be $$g(b_1, \dots, b_n)$$.
 
 
 Book Spine
