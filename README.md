@@ -21,6 +21,23 @@ Hence, we more often use *Complexity* in the course name for short.
 
 [(List of announcements)](#list-of-updates)
 
+### Class 17: \#SATD in IP
+(Oct 26, 2026)
+
+Zhizhen introduced the class AM (for Arthur-Merlin), which is a subset of IP but restricts the verifier-to-prover messages to public random coins.
+Zhizhen also showed an AM protocol for the GNI problem, which needs a subprotocol to prove set sizes, which we will cover later.
+
+We briefly argued that $$\mathbf{BPL} \subseteq \mathbf{P}$$.
+I would like to stress that, a PTM $$M$$ that solves a problem in BPL may not halt in polynomial time, and we must construct another (deterministic) TM $$M'$$ to solve the problem.
+$$M'$$ computes on the configuration graph of $$M$$ in a way similar to some Markov decision process.
+
+We then finished the sum-check proof for $$\mathit{\#SAT_D}$$.
+Wish asked a good question:
+The verifier may ask the prover to prove $$\sum_{b_2, \dots, b_n \in \bit} g(a, b_2, \dots, b_n) = s(a)$$ for many distinct random $$a$$.
+Would that catch all cheating provers?
+The result is yes, but the recursion grow exponentially in $$n$$, too much.
+
+
 ### Class 16: PSPACE in IP
 (Oct 21, 2026)
 
