@@ -36,7 +36,9 @@ Wish asked a good question:
 The verifier may ask the prover to prove $$\sum_{b_2, \dots, b_n \in \bit} g(a, b_2, \dots, b_n) = s(a)$$ for many distinct random $$a$$.
 Would that catch all cheating provers?
 The result is yes, but the recursion grow exponentially in $$n$$, too much.
-
+Shiyu asked another good question:
+Can we have the verifier send all the random challenges $$a \gets GF(p)$$ in one round instead of recursing interactively (so that the number of rounds is reduced to two)?
+The answer is no, when $$a$$ is known in advance, the prover can easily find $$s$$ such that satisfies the sumcheck and at the same time makes the recursive statement of $$s(a)$$ true.
 
 ### Class 16: PSPACE in IP
 (Oct 21, 2026)
