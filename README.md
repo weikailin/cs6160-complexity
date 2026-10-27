@@ -31,7 +31,7 @@ We briefly argued that $$\mathbf{BPL} \subseteq \mathbf{P}$$.
 I would like to stress that, a PTM $$M$$ that solves a problem in BPL may not halt in polynomial time, and we must construct another (deterministic) TM $$M'$$ to solve the problem.
 $$M'$$ computes on the configuration graph of $$M$$ in a way similar to some Markov decision process.
 
-We then finished the sum-check proof for $$\mathit{\#SAT_D}$$.
+We then finished the sumcheck proof for $$\mathit{\#SAT_D}$$.
 Wish asked a good question:
 The verifier may ask the prover to prove $$\sum_{b_2, \dots, b_n \in \bit} g(a, b_2, \dots, b_n) = s(a)$$ for many distinct random $$a$$.
 Would that catch all cheating provers?
@@ -52,7 +52,7 @@ That probably makes IP easier to think about.
 We next aim to prove that PSPACE is in IP, a surprising result by Shamir. 
 We began with the warmup problem $$\mathit{\#SAT_D}$$, which states that a 3-CNF $$\phi$$ has exactly $$K$$ satisfying assignments.
 Notice that $$\mathit{\#SAT_D}$$ is a decision problem and a generalization of the TAUTOLOGY problem.
-We showed the arithmetization of boolean formulas and then a *Sum-Check* protocol for polynomials.
+We showed the arithmetization of boolean formulas and then a *sumcheck* protocol for polynomials.
 It is cool as the arithmetization is a one-to-one mapping between boolean formulas and polynomials, but then we evaluate polynomials on non-binary values.
 
 We will finish the theorem next week. 
