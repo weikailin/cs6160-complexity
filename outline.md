@@ -55,6 +55,8 @@ Outline to Date
 1. \#SATD in IP.
 
 1. TQBF in IP.
+   
+   (End of October.)
 
 
 
