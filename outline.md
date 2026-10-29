@@ -50,6 +50,12 @@ Outline to Date
 
 1. Interactive proofs. Graph non-isomorphism.
 
+1. \#SATD. Arithmetization.
+
+1. \#SATD in IP.
+
+1. TQBF in IP.
+
 
 
 Tentative Outline
