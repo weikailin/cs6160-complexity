@@ -21,6 +21,51 @@ Hence, we more often use *Complexity* in the course name for short.
 
 [(List of announcements)](#list-of-updates)
 
+
+### Class 18: TQBF in IP
+(Oct 28, 2026)
+
+Wish introduced PCP Theorem, where PCP stands for Probabilistic Checkable Proofs and is conceptually related to IP. 
+The PCP theorem states that we have an efficient reduction from any NP problem to the Approximate SAT problem (a promise problem).
+As a corollary, Approximate SAT (or MaxSAT) is as hard as solving the standard SAT (as a decision problem).
+Notice that the corollary is perhaps unsurprising;
+However, the efficient reduction is surprising.
+
+We continued and finished the protocol and the proof of TQBF is in IP, which proved that IP = PSPACE.
+An issue raised and resolved in the textbook is the *polynomial degree* of the arithmetized QBF.
+We apply linearization operators to "replace" high-degree variables to degree 1.
+The resulting linearized polynomial is short in the number of coefficients, so that the prover-to-verifier messages, i.e., the polynomials, are short.
+Another issue raised by Nathan and Zhizhen is that the *values* and the polynomial coefficients of the linearization remains double exponential in magnitude.
+That is too large: The prover cannot send a polynomial with huge coefficients even the degree is low!
+
+I left the issue with saying that "choosing a random prime of $$\poly(n)$$ bits works with high probability."
+Searching with Gemini, I found it in [Shamir's 1992 paper](https://dl.acm.org/doi/pdf/10.1145/146585.146609), quoted below.
+
+> THEOREM 4. Let $$B$$ be a closed QBF of size $$n$$. Then there exists a prime $$p$$ of
+> length polynomial in $$n$$ such that $$A \neq O \mod p$$ if $$B$$ is true.
+> 
+> ...
+> 
+> This prime can be chosen by the prover P and sent to the verifier V
+> (along with a written proof of primality) as the first step of the interactive
+> proof, since even an infinitely powerful cheating prover cannot find such a
+> prime if $$A = 0$$. 
+
+The point is that there is a good prime $$p$$ that preserves completeness (with probability 1) when the statement is true:
+The prover finds $$p$$ that does not divide the value $$K \neq 0$$ in the statement and then sends both $$p$$ and $$K' = K \mod p$$ to the verifier.
+The verifier just need to ensure that $$p$$ is indeed prime, which can be efficiently proved (see below if needed), and that $$K' \neq 0$$ and thus $$K \neq 0$$, which does not need the exponentially long string $$K$$.
+Shamir claims *perfect* completeness.
+Notice that whether $$K$$ is a multiple of $$p$$ matters only when we arithmetize the QBF in the very beginning of the protocol.
+All subsequent statements (i.e., the recursive ones) are all already $$\mod p$$ statements and exact equality, not over the integers, not just $$> 0$$.
+Hence, for a *true* TQBF statement, in an intermediate round of the protocol, the verifier may ask the prover to prove that $$g'(a_1,a_2,a_3) = 0 \mod p$$ for some $$g'$$ and some random $$a_1,a_2,a_3 \in GF(p)$$, which still achieves perfect completeness.
+
+To prove $$p$$ is indeed prime, there are many ways.
+We can use the result that PRIMES is a problem in NP, which is nontrivial and requires some algebra.
+Alternatively, it is straightforward to see that PRIMES is in coNP because COMPOSITES is in NP.
+Then, we can reduce PRIMES to $$\mathit{\#SAT_D}$$ because TAUTOLOGY and thus $$\mathit{\#SAT_D}$$ is coNP-hard.
+That gives an interactive proof of PRIMES.
+
+
 ### Class 17: \#SATD in IP
 (Oct 26, 2026)
 
