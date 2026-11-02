@@ -22,6 +22,34 @@ Hence, we more often use *Complexity* in the course name for short.
 [(List of announcements)](#list-of-updates)
 
 
+### Class 19: Class AM, Set Lower Bound Protocol
+(Nov 2, 2026)
+
+Nathan talked about zero-knowledge proofs and a ZKP for the Graph Isomorphism problem.
+That is covered by Section 9.4 of Arora-Barak.
+Notice that in the presented definition, the languages that can be proved by ZKP are by definition in NP.
+
+We wrapped up IP = PSPACE by supplying the missing pieces of arithmetization, which are mostly given on this website under [Class 18](#class-18-tqbf-in-ip).
+A remark is that TQBF in IP is and was very surprising.
+Fortnow and Sipser (1988) showed that there exists an oracle $$A$$ such that $$\mathbf{coNP}^A \subsetneq \mathbf{IP}^A$$.
+That is, to prove TQBF in IP, we must use non-relativizing techniques.
+Indeed, when we reduce from $$L\in \mathbf{PSPACE}$$ to a QBF formula to the IP verifier, we uses the "program" of the Turing Machine and then the "code" of TQBF.
+The non-black-box reductions circumvent the Fortnow-Sipser impossibility.
+
+We repeated the definition of the class AM, which was introduced by Zhizhen earlier.
+AM a subset of IP by definition, but we require that the verifier only sends random coins to the prover.
+We aim to argue that for any $$k(n) \in \N$$, if a language $$L \in \mathbf{IP}[k]$$, then $$L \in \mathbf{AM}[k+2]$$, by Goldwasser and Sipser (1987).
+A special case is that we can prove Graph Non-Isomorphism public coin.
+
+We introduced Set Lower Bound as a promise problem, where the statement consists of a Turing Machine $$M$$ and string lengths $$m, \ell$$.
+An yes instance is that $$M$$ accepts a large subset of $$m$$-bit strings, and a no instance is that $$M$$ accepts a small subset, where large or small is parameterized by $$\ell$$.
+The cool idea is to pick a pairwise-independent hash family with output length just properly greater than $$\ell+2$$.
+The verifier samples and sends to prover a hash function $$h$$ and a random out $$y$$.
+The prover shall find a string $$z$$ such that $$M(z)$$ accepts and $$h(z) = y$$.
+The trick holds by the probability of $$h$$ and $$y$$, and it is used in many ZKP protocols.
+
+
+
 ### Class 18: TQBF in IP
 (Oct 28, 2026)
 
