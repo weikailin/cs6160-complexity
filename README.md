@@ -21,6 +21,15 @@ Hence, we more often use *Complexity* in the course name for short.
 
 [(List of announcements)](#list-of-updates)
 
+### Class 20: Program Checking
+(Nov 4, 2026)
+
+Wish talked about the PCP theorem, from the proof system view.
+
+We talked about the Exponential Time Hypothesis.
+
+We introduced program checking. (To elaborate....)
+
 
 ### Class 19: Class AM, Set Lower Bound Protocol
 (Nov 2, 2026)
