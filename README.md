@@ -21,6 +21,20 @@ Hence, we more often use *Complexity* in the course name for short.
 
 [(List of announcements)](#list-of-updates)
 
+### Class 21: The PCP Theorem
+(Nov 9, 2026)
+
+Zhizhen introduced counting problems the the classes $$\mathbf{#P}$$ and $$\mathbf{FP}$$.
+Notice that they are by definition different from decision problems that we have been talking about.
+Still, they are closely related to other classes, such as NP.
+Zhizhen also introduced the Permanant of matrices as an important problem in #P.
+We remark that in the very recent [Refutation of ETH](https://www.youtube.com/watch?v=_HlQGMcQWhA), [explained by Ryan O'Donnell](https://youtu.be/3CdlC4XOrrs?si=8BxtydXsu-zyMnNq) , computing permanent is an essential building block.
+
+We introduced Probabilistic Checkable Proofs (PCP), The PCP Theorem, and the equivalent theorem of Approximate 3SAT is NP-hard.
+While we didn't prove the equivalence, we illustrated PCP by proving that Graph Non-Isomorphism (GNI) is in the class $$\mathbf{PCP}(\log n, 1)$$, i.e., there is a PCP verifier using $$O(\log n)$$ random bits for GNI statements.
+We also stated that Approximate Independent Set is also NP-hard, for any constant approximation ratio $$< 1$$.
+
+
 ### Class 20: Program Checking
 (Nov 4, 2026)
 
