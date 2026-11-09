@@ -31,18 +31,30 @@ Zhizhen also introduced the Permanant of matrices as an important problem in #P.
 We remark that in the very recent [Refutation of ETH](https://www.youtube.com/watch?v=_HlQGMcQWhA), [explained by Ryan O'Donnell](https://youtu.be/3CdlC4XOrrs?si=8BxtydXsu-zyMnNq) , computing permanent is an essential building block.
 
 We introduced Probabilistic Checkable Proofs (PCP), The PCP Theorem, and the equivalent theorem of Approximate 3SAT is NP-hard.
-While we didn't prove the equivalence, we illustrated PCP by proving that Graph Non-Isomorphism (GNI) is in the class $$\mathbf{PCP}(\log n, 1)$$, i.e., there is a PCP verifier using $$O(\log n)$$ random bits for GNI statements.
+While we didn't prove the equivalence, we illustrated PCP by proving that Graph Non-Isomorphism (GNI) is in the class $$\mathbf{PCP}(\poly(n), 1)$$, i.e., there is a PCP verifier using $$\poly(n)$$ random bits for GNI statements.
+It is educative to see that some bits in the PCP proof might never be used. (Wish, Deebak, and Nathan fixed the proof and saved me :) 
 We also stated that Approximate Independent Set is also NP-hard, for any constant approximation ratio $$< 1$$.
 
 
 ### Class 20: Program Checking
 (Nov 4, 2026)
 
-Wish talked about the PCP theorem, from the proof system view.
+Wish delievered The PCP Theorem, from the proof system view.
+It is similar to interactive proofs, but the proof is only one string that is potentially very long, the verifier is restricted to be non-adaptive but is allowed to read any bit of the proof in unit time.
+The view can be prove to be equivalent to the hardness of Approximate 3SAT. 
 
-We talked about the Exponential Time Hypothesis.
+I suggested watching Ryan O'Donnel's video recording on OpenAI's refutation of the Exponential Time Hypothesis (ETH).
+To motivate, the resulting algorithm and the implication of ETH is explained.
+Notice that prior to the refutation, some people already expressed that ETH was a way to write publications.
 
-We introduced program checking. (To elaborate....)
+We introduced program checking.
+It considers a black-box program, and we want to check whether the program outputs correctly for a specific function we want.
+By black-box, we only have the input/output of the program, not even its description (in Turing Machine or any computation model).
+If the program computes a decision problem/function, such as Graph Isomorphism, we may also want to extract the "witness" of the problem instance, which is the permutation in the Graph Isomorphism case.
+While I failed to show the extractor for Graph Isomorphism, Jinye suggested an extractor that sounded right.
+However, after the class with some thoughts, Jinye found and then fixed a bug in her suggestion.
+
+We stress that program checking is perhaps important when we consider AI models--they are black-boxes as we do not know how they work.
 
 
 ### Class 19: Class AM, Set Lower Bound Protocol
