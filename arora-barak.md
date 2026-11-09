@@ -26,6 +26,11 @@ I checked the [authors' website](https://theory.cs.princeton.edu/complexity/) an
 
 - P. 159, Eq (8.8), should be $$g(b_1, \dots, b_n)$$.
 
+- P. 248, Proof (Of Theorem 11.15).
+  It proves that if for some constant $$\rho < 1$$, the $$\rho$$-approximation of INDSET is NP-hard, then for all constant $$\rho' < 1$$, the $$\rho$$-approximation is also NP-hard.
+  The proof is rough in grammar, but more importantly, we shall construct the graph $$G^k$$ by setting *two subsets $$S_1,S_2$$ are adjacent if $$S_1 \cup S_2$$ is **NOT** an independent set in $$GG$$* (the typo missed the "not").
+  That way, later in the proof, $$U$$ is an indpendent set of $$G$$ iff all $$k$$-subsets of $$U$$ is an independent set of $$G^k$$.
+
 
 Book Spine
 ---------
