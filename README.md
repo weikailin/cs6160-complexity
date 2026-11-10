@@ -148,6 +148,9 @@ Shiyu asked another good question:
 Can we have the verifier send all the random challenges $$a \gets GF(p)$$ in one round instead of recursing interactively (so that the number of rounds is reduced to two)?
 The answer is no, when $$a$$ is known in advance, the prover can easily find $$s$$ such that satisfies the sumcheck and at the same time makes the recursive statement of $$s(a)$$ true.
 
+[&#x1F4DD; Scribed notes](assets/pdf/cs6160-scribe17-oct26.pdf)
+
+
 ### Class 16: Arithmetization and \#SATD
 (Oct 21, 2026)
 
