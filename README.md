@@ -215,6 +215,7 @@ If we could reduce the number of randomness to a small number, e.g., logarithmic
 We introduced randomized logarithmic-space problems and their classes RL and BPL.
 It is interesting to see that undirected connectivity $$\mathit{UPATH} \in \mathbf{RL}$$.
 
+[&#x1F4DD; Scribed notes](assets/pdf/cs6160-scribe14-oct14.pdf)
 
 
 ### Class 13: BPP vs Other Classes
@@ -232,6 +233,8 @@ An unlikely hypothesis could be that $$\mathit{SAT}\in\mathbf{BPP}$$.
 If the hypothsis is true, by Adleman's Theorem and then by Karp-Lipton Theorem, the polynomial hierarchy collapses to $$\mathbf{\Sigma_2}$$.
 If we do not believe in the collapse, then we cannot solve SAT in BPP.
 Similarly, Sipser–Gács–Lautemann Theorem states that $$\mathbf{BPP} \subseteq \mathbf{\Sigma_2 \cap \Pi_2}$$.
+
+[&#x1F4DD; Scribed notes](assets/pdf/cs6160-scribe13-oct12.pdf)
 
 
 ### Class 12: Probabilistic Turing Machines, BPP, RP, ZPP
