@@ -34,7 +34,7 @@ I went over the "baby" PCP theorem, $$\mathbf{NP} \subseteq \mathbf{PCP}(\poly(n
 The proof of the full PCP theorem is unlikely to be covered due to the time, but we want to get some insight with the baby proof.
 The baby proof claims that the language $$QE \in \mathbf{PCP}(\poly(n), 1)$$ and that $$QE$$ is NP-complete, where QE is the decision problem of whether a set of Quadratic Equations has a solution.
 Let $$n$$ be the number of variables $$\vec{v} = (v_1, \dots, v_n)$$, and let $$m$$ be the number of equations.
-A QE problem instance is given by a matrix-vector pair $$(A,\vec{b})$$, where $$A \in GF(2)^{m \times n^2}, \vec{b} \in \GF(2)^{n^2}$$, and the problem ask if there exists a solution $$\vec{v} \in GF(2)^n$$ such that $$A \odot (\vec{u}\otimes \vec{u}) = \vec{b}$$.
+A QE problem instance is given by a matrix-vector pair $$(A,\vec{b})$$, where $$A \in GF(2)^{m \times n^2}, \vec{b} \in GF(2)^{n^2}$$, and the problem ask if there exists a solution $$\vec{v} \in GF(2)^n$$ such that $$A \odot (\vec{u}\otimes \vec{u}) = \vec{b}$$.
 Reducing from SAT to QE is not hard, so proving QE is NP-complete is left as an exercise.
 
 We gave a PCP verifier for QE.
