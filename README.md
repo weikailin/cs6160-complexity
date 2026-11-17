@@ -21,10 +21,38 @@ Hence, we more often use *Complexity* in the course name for short.
 
 [(List of announcements)](#list-of-updates)
 
+### Class 22: The PCP Theorem
+(Nov 16, 2026.)
+
+(Wei-Kai was absent for [TCC](https://tcc.iacr.org/2026/) on Nov 11, but Deebak led a good discussion about the refutation of ETH.)
+
+Avery introduced the class $$\mathbf{MIP}$$, the languages that can be interactively proved by multiple provers.
+Then, Avery illustrated the theorem $$\mathbf{MIP} = \mathbf{NEXP}$$ and its proof.
+An important idea in the (proof of) MIP is that the verifier can ask the same question to different prover and ensure the answers are identical or consistent, and that is why MIP is likely larger than IP and PSPACE.
+
+I went over the "baby" PCP theorem, $$\mathbf{NP} \subseteq \mathbf{PCP}(\poly(n), 1)$$, with an almost complete proof.
+The proof of the full PCP theorem is unlikely to be covered due to the time, but we want to get some insight with the baby proof.
+The baby proof claims that the language $$QE \in \mathbf{PCP}(\poly(n), 1)$$ and that $$QE$$ is NP-complete, where QE is the decision problem of whether a set of Quadratic Equations has a solution.
+Let $$n$$ be the number of variables $$\vec{v} = (v_1, \dots, v_n)$$, and let $$m$$ be the number of equations.
+A QE problem instance is given by a matrix-vector pair $$(A,\vec{b})$$, where $$A \in GF(2)^{m \times n^2}, \vec{b} \in \GF(2)^{n^2}$$, and the problem ask if there exists a solution $$\vec{v} \in GF(2)^n$$ such that $$A \odot (\vec{u}\otimes \vec{u}) = \vec{b}$$.
+Reducing from SAT to QE is not hard, so proving QE is NP-complete is left as an exercise.
+
+We gave a PCP verifier for QE.
+The main idea is to query the *random subset sum* of equations.
+Particularly, the verifier checks the following.
+(III) There is a solution $$\vec{v}$$ that satisfies $$A \odot \vec{v} = \vec{b}$$.
+This is done by sampling a random subset of rows in $$(A, \vec{b})$$ and then checking the sums equal.
+(II) There is a solution $$\vec{u}$$ that satisfies $$\vec{v} = \vec{u} \otimes \vec{u}$$.
+This is done by checking the Walsh-Hadamard code of $$\vec{v}$$ comes from the code of $$\vec{u}$$.
+(I) The proof correctly encodes $$\vec{u}$$ and $$\vec{u} \otimes \vec{u}$$.
+This is done by checking linearity of the code of $$\vec{u}$$ as well as that of $$\vec{v}$$.
+Notice that the ordering of the equality checks does not matter, and the verifier rejects if any check fails (the ordering is just for the purpose of understanding).
+
+
 ### Class 21: The PCP Theorem
 (Nov 9, 2026)
 
-Zhizhen introduced counting problems the the classes $$\mathbf{#P}$$ and $$\mathbf{FP}$$.
+Zhizhen introduced counting problems the the classes $$\mathbf{\#P}$$ and $$\mathbf{FP}$$.
 Notice that they are by definition different from decision problems that we have been talking about.
 Still, they are closely related to other classes, such as NP.
 Zhizhen also introduced the Permanant of matrices as an important problem in #P.
