@@ -21,6 +21,26 @@ Hence, we more often use *Complexity* in the course name for short.
 
 [(List of announcements)](#list-of-updates)
 
+### Class 23: The PCP Theorem
+(Nov 18, 2026.)
+
+Jinye talked about the the relation between Walsh-Hadamard code and Goldreich-Levin Lemma.
+
+We briefly depicted some future topic, that is, circuit lower bounds, natural proofs, and expander graphs.
+
+We showed that given 3SAT is hard to approximation by a constant factor $$\rho \in (7/8, 1)$$, the Independent Set (IS) problem is also hard to approximate for any constant factor $$\rho' > 0$$.
+The point is, the hardness of approximation, in terms of the approximation factor, differ from one problem to another.
+I also wanted to show the "self-improvement" property of independent set. 
+
+The first step is to reduce from 3SAT to IS using the standard polynomial-time reduction.
+I didn't get it right, but the correct reduction can be found [here](https://web.cs.unlv.edu/larmore/Courses/CSC456/satInd.pdf).
+Notice that the reduction already preserves the approximation factor: for any $$\alpha \in [0,1]$$, the 3SAT instance can be satisfied by $$\alpha$$ fraction if and only if the reduction's graph $$G$$ has an indep set of size $$\alpha \cdot n/3$$, where $$n$$ is the number of vertices of the graph.
+The second and more important step is to improve the approximation to any $$\rho' > 0$$.
+We improve this by constructing a new graph $$G'$$ that is larger than the first step $$G$$, where each vertex of $$G'$$ is a $$k$$-subset of vertices of $$G$$ for a constant $$k \ge 2$$, and the edges of $$G'$$ come from the *non-independent subsets* of $$G$$.
+Notice that my lecture and the textbook [missed the negation](arora-barak.md).
+Such self-improvement can be found in other combinatorial problems as well.
+
+
 ### Class 22: The PCP Theorem
 (Nov 16, 2026.)
 
