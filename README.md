@@ -21,6 +21,29 @@ Hence, we more often use *Complexity* in the course name for short.
 
 [(List of announcements)](#list-of-updates)
 
+### Class 24: Circuit Lower Bounds, Håstad's Switching Lemma
+(Nov 23, 2026.)
+
+I chatted about proving circuit lower bounds.
+An example, in introduction to aglorithms, is that comparison-based sorting requires $$\Omega(n \log n)$$ comparison operations.
+Such a lower bound also holds for any comparison-based circuits, where the circuit is only allowed to use the specific compare-and-swap gate.
+However, standard boolean circuits compute on wires arbitrarily, and the comparison-based restriction is making the lower bound easier to prove.
+Indeed, counting sort easily achieves linear circuit size when we just want to sort n bits.
+It is wild that for any NP problem, the best lower bound we have is no more than $$5n$$.
+See also the recent paper that proved that [a *symmetric exponential time* language requires exponential circuit size](https://dl.acm.org/doi/pdf/10.1145/3778166).
+
+We continued to prove that the Parity function is not in $$\mathbf{AC}^0$$, where Parity is simply the XOR of n bits.
+The history is interesting: the lower bound was proved by Furst, Saxe, Sipser (1981) and indpendently by Ajtai (1983), and then Håstad (1986) simplified the proof with the Switching Lemma, and then Razborov (1993) simplified the proof of Switching Lemma.
+It is a long-time effort.
+
+In Arora-Barak, $$k_i = 10 b 2^i$$ is chosen to be the parameter of the DNF/CNF after the $$i$$-th Switching Lemma.
+We have the circuit size defined to be $$n^b$$, so $$b$$ is a constant.
+Thus, $$k_0 = 10b$$ is a constant; this is WLOG because when we want a greater-than-constant fan-in at the leaf level, we can increase the depth by 2 and move the large fan-in to inner nodes.
+(I assumed that $$k_0 \le n^{1/100}$$, unnecessary.)
+Also notice that $$k_{i+1}$$ increases from $$k_i$$ by factor 2 because we want to amplify the probability of Switching Lemma when $$n_i$$ decreases.
+(I chose a constant $$k_i$$, maybe to weak in probability.)
+
+
 ### Class 23: The PCP Theorem
 (Nov 18, 2026.)
 
