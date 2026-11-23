@@ -44,11 +44,12 @@ I checked the [authors' website](https://theory.cs.princeton.edu/complexity/) an
   Each variable of $$\sigma$$ is in $$\pi$$, but they are assigned differently as follows.
   1. Let $$i = 0$$. 
   2. Find the first nonzero term $$t_i$$ in $$f_{\rho\sigma_1 \cdots \sigma_{i-1}}$$.
-     Find the variables of $$t_i$$ that intersects with $$\pi \setminus \sigma_1 \cdots \sigma_{i-1}}$$.
+     Find the variables of $$t_i$$ that intersects with $$\pi \setminus \sigma_1 \cdots \sigma_{i-1}$$.
      Assign the intersection so that $$t_i$$ remains nonzero; let the assignment be $$\sigma_i$$.
-     The term $$t_i$, the intersection, and the assignment are nonempty by $$\pi$$.
+     The term $$t_i$$, the intersection, and the assignment are nonempty by $$\pi$$.
   3. Increment $$i$$ and repeat the previous step until the length of $$\sigma_1 \cdots \sigma_{i}$$ is exactly $$s$$.
   4. For each $$i$$, write in $$c$$ the indices of $$\sigma_i$$ variables in the term $$t_i$$.
+  
   The invariant is that for all $$i < j$$, $$t_i$$ is never assigned by $$\sigma_{j}$$.
   Therefore, in $$f_{\rho\sigma}$$, the first nonzero term is $$t_1$$, the second is $$t_2$$, and so on, and then we we can recover $$\rho$$ from $$(\rho\sigma, c)$$.
 
